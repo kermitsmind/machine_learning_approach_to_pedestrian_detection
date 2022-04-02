@@ -3,6 +3,8 @@
 
 ### 2. Try to extract binary mask of a person
 # Based on https://machinelearningknowledge.ai/image-segmentation-in-python-opencv/
+# https://www.codetd.com/en/article/12758906
+# https://docs.opencv.org/3.4/d8/d83/tutorial_py_grabcut.html
 
 
 # Import the necessary packages
@@ -60,8 +62,8 @@ for (xA, yA, xB, yB) in pick:
 
     ## k-means algorithm
     # preprocessing
-    image_part = cv2.cvtColor(image_part, cv2.COLOR_BGR2RGB)
-    twoDimage = image_part.reshape((-1, 3))
+    image_part_1 = cv2.cvtColor(image_part, cv2.COLOR_BGR2RGB)
+    twoDimage = image_part_1.reshape((-1, 3))
     twoDimage = np.float32(twoDimage)
     criteria = (cv2.TERM_CRITERIA_EPS + cv2.TERM_CRITERIA_MAX_ITER, 10, 1.0)
     K = 2
@@ -73,7 +75,7 @@ for (xA, yA, xB, yB) in pick:
     res = center[label.flatten()]
     result_image_part = res.reshape((image_part.shape))
     name = image_name + "_k-means"
-    # cv2.imshow(name, result_image_part)
+    cv2.imshow(name, result_image_part)
 
     ## contour-detection algorithm
     # preprocessing
@@ -82,7 +84,7 @@ for (xA, yA, xB, yB) in pick:
     _, thresh = cv2.threshold(gray, np.mean(gray), 255, cv2.THRESH_BINARY_INV)
     edges = cv2.dilate(cv2.Canny(thresh, 0, 255), None)
     name = image_name + "_contour-detection"
-    # cv2.imshow(name, edges)
+    cv2.imshow(name, edges)
 
     # detecting and drawing contours
     cnt = sorted(
@@ -92,7 +94,7 @@ for (xA, yA, xB, yB) in pick:
     mask = np.zeros((256, 256), np.uint8)
     masked = cv2.drawContours(mask, [cnt], -1, 255, -1)
     name = image_name + "_detect_and_draw_contour-detection"
-    # cv2.imshow(name, masked)
+    cv2.imshow(name, masked)
 
     # segmenting the regions
     dst = cv2.bitwise_and(img, img, mask=mask)
@@ -105,7 +107,7 @@ for (xA, yA, xB, yB) in pick:
     img_rgb = cv2.cvtColor(image_part, cv2.COLOR_BGR2RGB)
     img_gray = cv2.cvtColor(img_rgb, cv2.COLOR_RGB2GRAY)
     name = image_name + "_1"
-    # cv2.imshow(name, img_gray)
+    cv2.imshow(name, img_gray)
 
     # segmentation
     def filter_image(image, mask):
@@ -118,14 +120,14 @@ for (xA, yA, xB, yB) in pick:
     img_otsu = img_gray < thresh
     filtered = filter_image(image_part, img_otsu)
     name = image_name + "_2"
-    # cv2.imshow(name, filtered)
+    cv2.imshow(name, filtered)
 
     ## segmentation using color masking
     # preprocessing
     rgb_img = cv2.cvtColor(image_part, cv2.COLOR_BGR2RGB)
     hsv_img = cv2.cvtColor(rgb_img, cv2.COLOR_RGB2HSV)
     name = image_name + "_3"
-    # cv2.imshow(name, hsv_img)
+    cv2.imshow(name, hsv_img)
 
     # define the color range to be detected and apply the mask
     light_blue = (90, 70, 50)
@@ -135,7 +137,26 @@ for (xA, yA, xB, yB) in pick:
     mask = cv2.inRange(hsv_img, light_blue, dark_blue)
     result = cv2.bitwise_and(image_part, image_part, mask=mask)
     name = image_name + "_4"
-    # cv2.imshow(name, result)
+    cv2.imshow(name, result)
+
+    ## extract irregular ROI area
+    hsv = cv2.cvtColor(image_part, cv2.COLOR_BGR2HSV)
+    mask = cv2.inRange(hsv, (36, 25, 25), (86, 255, 255))
+    name = image_name + "_irreq_roi"
+    cv2.imshow(name, mask)
+
+    ## GrabCut algorithm
+    image_copy = image.copy()
+    mask = np.zeros(image_copy.shape[:2], np.uint8)
+    bgdModel = np.zeros((1, 65), np.float64)
+    fgdModel = np.zeros((1, 65), np.float64)
+    rect = (xA, yA, xB, yB)
+    cv2.grabCut(image_copy, mask, rect, bgdModel, fgdModel, 5, cv2.GC_INIT_WITH_RECT)
+    mask2 = np.where((mask == 2) | (mask == 0), 0, 1).astype("uint8")
+    image_res = image_copy * mask2[:, :, np.newaxis]
+    name = image_name + "_grab_cut"
+    image_res = image_res[yA:yB, xA:xB]
+    cv2.imshow(name, image_res)
 
 # show the output image
 cv2.imshow("After NMS", image)
