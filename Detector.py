@@ -3,14 +3,32 @@ from detectron2.config import get_cfg
 from detectron2.data import MetadataCatalog
 from detectron2.utils.visualizer import ColorMode, Visualizer
 from detectron2 import model_zoo
+from detectron2.structures import Boxes
 
-import cv2
+import detectron2
+import cv2 as cv2
 import numpy as np
-import imutils
+import torch
 
 
+# based on: https://www.youtube.com/watch?v=Pb3opEFP94U&t=813s
 class Detector:
-    def __init__(self, model_type="OD"):
+    """
+    Class responsible for the detection part.
+    Processes the image.
+    """
+
+    def __init__(self, model_type):
+        """
+        Constructor of the class.
+
+        :param: model_type: Choose mode like:
+                                Object Detection (OD),
+                                Instance Segmentation (IS),
+                                Keypoint Extraction (KP)
+                            mode other than OD works properly only when class_reduction in self.processImage is set to False
+        """
+
         self.cfg = get_cfg()
         self.model_type = model_type
 
@@ -59,19 +77,82 @@ class Detector:
 
         self.predictor = DefaultPredictor(self.cfg)
 
-    def onImage(self, imagePath):
-        image = cv2.imread(imagePath)
+    # based on: https://colab.research.google.com/drive/1x-eMvFQTLBTr7ho9ZlYkHF0NmyUyAlxT?usp=sharing#scrollTo=Z_pe5XFayoHP
+    def chooseOneClassFromAllDetected(self, initialPredictions, image):
+        """
+        Method responsible for reducing detected object classes to one particular
 
+        :param: initialPredictions: predictions produced by self.predictor which is DefaultPredictor(self.cfg)
+        :param: image: image to be processed
+        """
+
+        classes = initialPredictions["instances"].pred_classes
+        scores = initialPredictions["instances"].scores
+        boxes = initialPredictions["instances"].pred_boxes
+
+        index_to_keep = (classes == 0).nonzero().flatten().tolist()
+
+        classes_filtered = torch.tensor(np.take(classes.cpu().numpy(), index_to_keep))
+        scores_filtered = torch.tensor(np.take(scores.cpu().numpy(), index_to_keep))
+        boxes_filtered = Boxes(
+            torch.tensor(np.take(boxes.tensor.cpu().numpy(), index_to_keep, axis=0))
+        )
+
+        obj = detectron2.structures.Instances(
+            image_size=(image.shape[0], image.shape[1])
+        )
+        obj.set("pred_classes", classes_filtered)
+        obj.set("scores", scores_filtered)
+        obj.set("pred_boxes", boxes_filtered)
+
+        return obj
+
+    def processImage(self, image, class_reduction, image_color_mode="IMAGE"):
+        """
+        Method responsible for performing actual detector usage on an image
+
+        :param: image: image object to be processed
+        :param: class_reduction: decides if all classes will be used or only one
+        :param: image_color_mode: color mode for showing the results
+
+        return: image object
+        """
+
+        self.image = image
         if self.model_type != "PS":
-            predictions = self.predictor(image)
-            # viz = Visualizer(image[:,:,::-1], metadata=MetadataCatalog.get(self.cfg.DATASETS.TRAIN[0]), instance_mode=ColorMode.IMAGE_BW)
-            # viz = Visualizer(image[:,:,::-1], metadata=MetadataCatalog.get(self.cfg.DATASETS.TRAIN[0]), instance_mode=ColorMode.SEGMENTATION)
-            viz = Visualizer(
-                image[:, :, ::-1],
-                metadata=MetadataCatalog.get(self.cfg.DATASETS.TRAIN[0]),
-                instance_mode=ColorMode.IMAGE,
-            )
-            output = viz.draw_instance_predictions(predictions["instances"].to("cpu"))
+            if class_reduction == True:
+                predictions = self.predictor(image)
+                new_predictions = self.chooseOneClassFromAllDetected(
+                    initialPredictions=predictions, image=image
+                )
+            else:
+                new_predictions = self.predictor(image)
+
+            if image_color_mode == "IMAGE":
+                viz = Visualizer(
+                    image[:, :, ::-1],
+                    metadata=MetadataCatalog.get(self.cfg.DATASETS.TRAIN[0]),
+                    instance_mode=ColorMode.IMAGE,
+                )
+            elif image_color_mode == "IMAGE_BW":
+                viz = Visualizer(
+                    image[:, :, ::-1],
+                    metadata=MetadataCatalog.get(self.cfg.DATASETS.TRAIN[0]),
+                    instance_mode=ColorMode.IMAGE_BW,
+                )
+            elif image_color_mode == "SEGMENTATION":
+                viz = Visualizer(
+                    image[:, :, ::-1],
+                    metadata=MetadataCatalog.get(self.cfg.DATASETS.TRAIN[0]),
+                    instance_mode=ColorMode.SEGMENTATION,
+                )
+            if class_reduction == True:
+                output = viz.draw_instance_predictions(new_predictions.to("cpu"))
+            else:
+                output = viz.draw_instance_predictions(
+                    new_predictions["instances"].to("cpu")
+                )
+
         else:
             predictions, segmentInfo = self.predictor(image)["panoptic_seg"]
             viz = Visualizer(
@@ -80,51 +161,5 @@ class Detector:
             output = viz.draw_panoptic_seg_predictions(
                 predictions.to("cpu"), segmentInfo
             )
-        cv2.imshow("Result", output.get_image()[:, :, ::-1])
-        cv2.waitKey()
 
-    def onVideo(self, videoPath):
-        if videoPath == "webcam":
-            cap = cv2.VideoCapture(0)
-        else:
-            cap = cv2.VideoCapture(videoPath)
-
-        if cap.isOpened() == False:
-            print("Error opening the file")
-            return
-
-        (success, image) = cap.read()
-
-        while success:
-            width = image.shape[1]
-            max_width = 200
-            if width > max_width:
-                image = imutils.resize(image, width=max_width)
-
-            if self.model_type != "PS":
-                predictions = self.predictor(image)
-                # viz = Visualizer(image[:,:,::-1], metadata=MetadataCatalog.get(self.cfg.DATASETS.TRAIN[0]), instance_mode=ColorMode.IMAGE_BW)
-                # viz = Visualizer(image[:,:,::-1], metadata=MetadataCatalog.get(self.cfg.DATASETS.TRAIN[0]), instance_mode=ColorMode.SEGMENTATION)
-                viz = Visualizer(
-                    image[:, :, ::-1],
-                    metadata=MetadataCatalog.get(self.cfg.DATASETS.TRAIN[0]),
-                    instance_mode=ColorMode.IMAGE,
-                )
-                output = viz.draw_instance_predictions(
-                    predictions["instances"].to("cpu")
-                )
-            else:
-                predictions, segmentInfo = self.predictor(image)["panoptic_seg"]
-                viz = Visualizer(
-                    image[:, :, ::-1], MetadataCatalog.get(self.cfg.DATASETS.TRAIN[0])
-                )
-                output = viz.draw_panoptic_seg_predictions(
-                    predictions.to("cpu"), segmentInfo
-                )
-
-            cv2.imshow("Result", output.get_image()[:, :, ::-1])
-
-            key = cv2.waitKey(1) & 0xFF
-            if key == ord("q"):
-                break
-            (success, image) = cap.read()
+        return output.get_image()[:, :, ::-1]
