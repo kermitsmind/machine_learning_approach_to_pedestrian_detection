@@ -184,7 +184,10 @@ class Detector:
                 sum += np.linalg.norm(prediction[i] - prediction[i + 1])
             index = np.append(index, sum)
 
-        index_of_value_to_keep = np.argmax(index)
+        if len(index) > 0:
+            index_of_value_to_keep = np.argmax(index)
+        else:
+            index_of_value_to_keep = 0
 
         return int(index_of_value_to_keep)
 
@@ -224,5 +227,44 @@ class Detector:
         obj.set("pred_boxes", boxes_filtered)
         obj.set("pred_keypoints", keypoints_filtered)
         obj.set("scores", scores)
+
+        return obj
+
+    def combineAllPredictionsTogether(self, predictionsDict, image):
+        """
+        Method responsible for combining all predictions from individual images into one
+
+        :param: predictionsDict: dictionary with predictions for each image
+        :param: image: image to take dimensions of it
+
+        return one combined prediction instance object
+        """
+
+        number_of_people = len(predictionsDict.keys())
+        pred_sum = predictionsDict[0]
+        boxes_sum = pred_sum.pred_boxes.tensor.cpu().numpy().copy()
+        keypoints_sum = pred_sum.pred_keypoints.cpu().numpy().copy()
+        scores_sum = pred_sum.scores.cpu().numpy().copy()
+
+        if number_of_people > 1:
+            for i in range(1, number_of_people - 1):
+                pred = predictionsDict[i]
+                boxes = pred.pred_boxes.tensor.cpu().numpy().copy()
+                keypoints = pred.pred_keypoints.cpu().numpy().copy()
+                scores = pred.scores.cpu().numpy().copy()
+
+                boxes_sum = np.vstack([boxes_sum, boxes])
+                keypoints_sum = np.vstack([keypoints_sum, keypoints])
+                scores_sum = np.append(scores_sum, scores)
+
+        boxes_sum = Boxes(torch.tensor(boxes_sum))
+        keypoints_sum = torch.tensor(keypoints_sum)
+
+        obj = detectron2.structures.Instances(
+            image_size=(image.shape[0], image.shape[1])
+        )
+        obj.set("pred_boxes", boxes_sum)
+        obj.set("pred_keypoints", keypoints_sum)
+        obj.set("scores", scores_sum)
 
         return obj
