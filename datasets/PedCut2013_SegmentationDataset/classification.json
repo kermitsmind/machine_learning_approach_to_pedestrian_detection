@@ -1,0 +1,3356 @@
+{
+  "name": "New undefined Dataset",
+  "interface": {
+    "type": "image_classification",
+    "labels": [
+      {
+        "id": "stationary",
+        "description": ""
+      },
+      {
+        "id": "go-forward",
+        "description": ""
+      },
+      {
+        "id": "go-backward"
+      },
+      {
+        "id": "go-right"
+      },
+      {
+        "id": "go-left"
+      }
+    ]
+  },
+  "samples": [
+    {
+      "_id": "sghpuzv5n",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_001_img_000000025_c0.png",
+      "annotation": [
+        "go-right"
+      ],
+      "brush": "complete"
+    },
+    {
+      "_id": "s29c05noh",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_002_img_000000025_c0.png",
+      "annotation": [
+        "go-backward"
+      ],
+      "brush": "complete"
+    },
+    {
+      "_id": "sxvl8jzkh",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_003_img_000000025_c0.png",
+      "annotation": [
+        "go-backward"
+      ],
+      "brush": "complete"
+    },
+    {
+      "_id": "simueiy2c",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_004_img_000000025_c0.png",
+      "annotation": [
+        "stationary"
+      ],
+      "brush": "complete"
+    },
+    {
+      "_id": "s2b6qaz1r",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_005_img_000000025_c0.png",
+      "annotation": [
+        "go-right"
+      ],
+      "brush": "complete"
+    },
+    {
+      "_id": "sa6oh8mgl",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_006_img_000000000_c0.png",
+      "annotation": [
+        "stationary"
+      ],
+      "brush": "complete"
+    },
+    {
+      "_id": "s0xpdibrm",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_007_img_000000001_c0.png",
+      "annotation": "go-forward",
+      "brush": "complete"
+    },
+    {
+      "_id": "szx0aqez7",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_008_img_000000001_c0.png",
+      "annotation": [
+        "stationary"
+      ],
+      "brush": "complete"
+    },
+    {
+      "_id": "s6eqzkszb",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_009_img_000000001_c0.png",
+      "annotation": [
+        "stationary"
+      ],
+      "brush": "complete"
+    },
+    {
+      "_id": "sv3mub0dh",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_010_img_000000001_c0.png",
+      "annotation": [
+        "stationary"
+      ],
+      "brush": "complete"
+    },
+    {
+      "_id": "st958v0v4",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_011_img_000000002_c0.png",
+      "annotation": [
+        "go-left"
+      ],
+      "brush": "complete"
+    },
+    {
+      "_id": "szs5kdlzh",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_012_img_000000002_c0.png",
+      "annotation": [
+        "go-right"
+      ],
+      "brush": "complete"
+    },
+    {
+      "_id": "ssobqe7e3",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_013_img_000000002_c0.png",
+      "annotation": [
+        "go-right"
+      ],
+      "brush": "complete"
+    },
+    {
+      "_id": "sad3k5492",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_014_img_000000002_c0.png",
+      "annotation": [
+        "go-right"
+      ],
+      "brush": "complete"
+    },
+    {
+      "_id": "s3y7y3ti8",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_015_img_000000003_c0.png",
+      "annotation": [
+        "go-backward"
+      ],
+      "brush": "complete"
+    },
+    {
+      "_id": "s3vzlp2y1",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_016_img_000000004_c0.png",
+      "annotation": [
+        "go-left"
+      ],
+      "brush": "complete"
+    },
+    {
+      "_id": "s85a8c05m",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_017_img_000000005_c0.png",
+      "annotation": [
+        "go-right"
+      ],
+      "brush": "complete"
+    },
+    {
+      "_id": "s4jp7p1cu",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_018_img_000000006_c0.png",
+      "annotation": [
+        "go-right"
+      ],
+      "brush": "complete"
+    },
+    {
+      "_id": "s8991i5nl",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_019_img_000000007_c0.png",
+      "annotation": [
+        "go-right"
+      ],
+      "brush": "complete"
+    },
+    {
+      "_id": "sycj786zm",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_020_img_000000007_c0.png",
+      "annotation": [
+        "go-right"
+      ],
+      "brush": "complete"
+    },
+    {
+      "_id": "sl01shmsi",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_021_img_000000007_c0.png",
+      "annotation": [
+        "go-left"
+      ],
+      "brush": "complete"
+    },
+    {
+      "_id": "s9broo947",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_022_img_000000007_c0.png",
+      "annotation": [
+        "go-left"
+      ],
+      "brush": "complete"
+    },
+    {
+      "_id": "s8fjtlk9f",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_023_img_000000007_c0.png",
+      "annotation": [
+        "go-forward"
+      ],
+      "brush": "complete"
+    },
+    {
+      "_id": "seea2t70x",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_024_img_000000007_c0.png",
+      "annotation": [
+        "stationary"
+      ],
+      "brush": "complete"
+    },
+    {
+      "_id": "s1zepkg48",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_025_img_000000008_c0.png",
+      "annotation": [
+        "stationary"
+      ],
+      "brush": "complete"
+    },
+    {
+      "_id": "sooktpuvq",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_026_img_000000008_c0.png",
+      "annotation": [
+        "go-right"
+      ],
+      "brush": "complete"
+    },
+    {
+      "_id": "svoxnz96g",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_027_img_000000008_c0.png",
+      "annotation": [
+        "go-backward"
+      ],
+      "brush": "complete"
+    },
+    {
+      "_id": "s50neh5vj",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_028_img_000000009_c0.png",
+      "annotation": [
+        "go-right"
+      ],
+      "brush": "complete"
+    },
+    {
+      "_id": "s3a8muw8j",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_029_img_000000009_c0.png",
+      "annotation": [
+        "go-backward"
+      ],
+      "brush": "complete"
+    },
+    {
+      "_id": "snzaywxc4",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_030_img_000000010_c0.png",
+      "annotation": [
+        "go-right"
+      ],
+      "brush": "complete"
+    },
+    {
+      "_id": "slbn8zpeq",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_031_img_000000010_c0.png",
+      "annotation": "go-right",
+      "brush": "complete"
+    },
+    {
+      "_id": "sf250tzgc",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_032_img_000000010_c0.png",
+      "annotation": "go-forward",
+      "brush": "complete"
+    },
+    {
+      "_id": "suldbshsi",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_033_img_000000010_c0.png",
+      "annotation": [
+        "go-backward"
+      ],
+      "brush": "complete"
+    },
+    {
+      "_id": "s17hds837",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_034_img_000000010_c0.png",
+      "annotation": [
+        "go-right"
+      ],
+      "brush": "complete"
+    },
+    {
+      "_id": "sjlzxg6wk",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_035_img_000000011_c0.png",
+      "annotation": [
+        "go-backward"
+      ],
+      "brush": "complete"
+    },
+    {
+      "_id": "sthzteh4s",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_036_img_000000011_c0.png",
+      "annotation": [
+        "go-right"
+      ],
+      "brush": "complete"
+    },
+    {
+      "_id": "svia7qred",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_037_img_000000011_c0.png",
+      "annotation": "go-right",
+      "brush": "complete"
+    },
+    {
+      "_id": "sfctvh3mo",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_038_img_000000011_c0.png",
+      "annotation": [
+        "go-right"
+      ],
+      "brush": "complete"
+    },
+    {
+      "_id": "swfdbj516",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_039_img_000000012_c0.png",
+      "annotation": [
+        "go-left"
+      ],
+      "brush": "complete"
+    },
+    {
+      "_id": "s2yzn5dx8",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_040_img_000000012_c0.png",
+      "annotation": [
+        "stationary"
+      ],
+      "brush": "complete"
+    },
+    {
+      "_id": "sj853u80t",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_041_img_000000012_c0.png",
+      "annotation": [
+        "go-left"
+      ],
+      "brush": "complete"
+    },
+    {
+      "_id": "shp94pmh4",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_042_img_000000012_c0.png",
+      "annotation": [
+        "stationary"
+      ],
+      "brush": "complete"
+    },
+    {
+      "_id": "szc4roifq",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_043_img_000000012_c0.png",
+      "annotation": [
+        "go-backward"
+      ],
+      "brush": "complete"
+    },
+    {
+      "_id": "sbgweonqf",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_044_img_000000013_c0.png",
+      "annotation": [
+        "go-right"
+      ],
+      "brush": "complete"
+    },
+    {
+      "_id": "suyp1i1ei",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_045_img_000000014_c0.png",
+      "annotation": [
+        "go-right"
+      ],
+      "brush": "complete"
+    },
+    {
+      "_id": "sfaeek2oa",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_046_img_000000015_c0.png",
+      "annotation": [
+        "go-right"
+      ],
+      "brush": "complete"
+    },
+    {
+      "_id": "ss04ji7m9",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_047_img_000000015_c0.png",
+      "annotation": [
+        "go-backward"
+      ],
+      "brush": "complete"
+    },
+    {
+      "_id": "sjaig7rcr",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_048_img_000000016_c0.png",
+      "annotation": "go-backward",
+      "brush": "complete"
+    },
+    {
+      "_id": "sjzatm8pd",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_049_img_000000016_c0.png",
+      "annotation": [
+        "go-right"
+      ],
+      "brush": "complete"
+    },
+    {
+      "_id": "sz7f7g50v",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_050_img_000000016_c0.png",
+      "annotation": "stationary",
+      "brush": "complete"
+    },
+    {
+      "_id": "seiuxeuo3",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_051_img_000000016_c0.png"
+    },
+    {
+      "_id": "sd1eagyon",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_052_img_000000017_c0.png"
+    },
+    {
+      "_id": "slum713m3",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_053_img_000000017_c0.png"
+    },
+    {
+      "_id": "so6f2v49c",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_054_img_000000017_c0.png"
+    },
+    {
+      "_id": "snscnm9uq",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_055_img_000000017_c0.png"
+    },
+    {
+      "_id": "sgttnjjl6",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_056_img_000000017_c0.png"
+    },
+    {
+      "_id": "sbe1obnqe",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_057_img_000000017_c0.png"
+    },
+    {
+      "_id": "st0w20f4e",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_058_img_000000018_c0.png"
+    },
+    {
+      "_id": "su3lmsx5c",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_059_img_000000018_c0.png"
+    },
+    {
+      "_id": "sevxmqzxt",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_060_img_000000018_c0.png"
+    },
+    {
+      "_id": "sl4lo0l5n",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_061_img_000000018_c0.png"
+    },
+    {
+      "_id": "srzu8c0gq",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_062_img_000000019_c0.png"
+    },
+    {
+      "_id": "sefi7y2qo",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_063_img_000000019_c0.png"
+    },
+    {
+      "_id": "sp6zsnqfc",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_064_img_000000019_c0.png"
+    },
+    {
+      "_id": "shapdnwgi",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_065_img_000000019_c0.png"
+    },
+    {
+      "_id": "snf9rpzth",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_066_img_000000019_c0.png"
+    },
+    {
+      "_id": "s99vgcmte",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_067_img_000000019_c0.png"
+    },
+    {
+      "_id": "she8amwxw",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_068_img_000000020_c0.png"
+    },
+    {
+      "_id": "sty6civn6",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_069_img_000000020_c0.png"
+    },
+    {
+      "_id": "sjttnr1kp",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_070_img_000000020_c0.png"
+    },
+    {
+      "_id": "sqwwrdzl3",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_071_img_000000020_c0.png"
+    },
+    {
+      "_id": "sdo3y8ia9",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_072_img_000000020_c0.png"
+    },
+    {
+      "_id": "sbx9l5gr1",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_073_img_000000021_c0.png"
+    },
+    {
+      "_id": "su82fbwxs",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_074_img_000000021_c0.png"
+    },
+    {
+      "_id": "s0s4q9f2u",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_075_img_000000021_c0.png"
+    },
+    {
+      "_id": "smc9i8l2z",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_076_img_000000022_c0.png"
+    },
+    {
+      "_id": "splqcgn2f",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_077_img_000000022_c0.png"
+    },
+    {
+      "_id": "s20b56cji",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_078_img_000000022_c0.png"
+    },
+    {
+      "_id": "sdeec045q",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_079_img_000000022_c0.png"
+    },
+    {
+      "_id": "spp3u9xsf",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_080_img_000000023_c0.png"
+    },
+    {
+      "_id": "smi7waefb",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_081_img_000000023_c0.png"
+    },
+    {
+      "_id": "sgat0qqah",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_082_img_000000023_c0.png"
+    },
+    {
+      "_id": "s1kjusrke",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_083_img_000000023_c0.png"
+    },
+    {
+      "_id": "s8ov8iz6j",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_084_img_000000023_c0.png"
+    },
+    {
+      "_id": "sssnxq077",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_085_img_000000023_c0.png"
+    },
+    {
+      "_id": "s0ztxrx9l",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_086_img_000000024_c0.png"
+    },
+    {
+      "_id": "scam3t0c9",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_087_img_000000024_c0.png"
+    },
+    {
+      "_id": "s1oxahfhk",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_088_img_000000024_c0.png"
+    },
+    {
+      "_id": "s3n44or0o",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_089_img_000000024_c0.png"
+    },
+    {
+      "_id": "shjqckjcf",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_090_img_000000026_c0.png"
+    },
+    {
+      "_id": "souz2rqf3",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_091_img_000000026_c0.png"
+    },
+    {
+      "_id": "siej633ep",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_092_img_000000026_c0.png"
+    },
+    {
+      "_id": "sm8qtobki",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_093_img_000000026_c0.png"
+    },
+    {
+      "_id": "smtoq0pid",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_094_img_000000026_c0.png"
+    },
+    {
+      "_id": "s3euma9bn",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_095_img_000000027_c0.png"
+    },
+    {
+      "_id": "sdum3ivjq",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_096_img_000000027_c0.png"
+    },
+    {
+      "_id": "siqi7njxv",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_097_img_000000027_c0.png"
+    },
+    {
+      "_id": "swv37r086",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_098_img_000000027_c0.png"
+    },
+    {
+      "_id": "s3s9786pl",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_099_img_000000027_c0.png"
+    },
+    {
+      "_id": "s7kea6zli",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_100_img_000000028_c0.png"
+    },
+    {
+      "_id": "sozlybe4e",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_101_img_000000028_c0.png"
+    },
+    {
+      "_id": "s72jlb42y",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_102_img_000000028_c0.png"
+    },
+    {
+      "_id": "sbqu2ge5j",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_103_img_000000028_c0.png"
+    },
+    {
+      "_id": "sot9wmuhu",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_104_img_000000029_c0.png"
+    },
+    {
+      "_id": "sio15adpo",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_105_img_000000029_c0.png"
+    },
+    {
+      "_id": "s8c3h8fyl",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_106_img_000000029_c0.png"
+    },
+    {
+      "_id": "s78dplj2q",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_107_img_000000029_c0.png"
+    },
+    {
+      "_id": "s4h9e2e9p",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_108_img_000000029_c0.png"
+    },
+    {
+      "_id": "s7x3w4hfk",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_109_img_000000030_c0.png"
+    },
+    {
+      "_id": "szhm36hpn",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_110_img_000000030_c0.png"
+    },
+    {
+      "_id": "sz5mqlz2b",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_111_img_000000030_c0.png"
+    },
+    {
+      "_id": "su7mcu2ju",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_112_img_000000030_c0.png"
+    },
+    {
+      "_id": "sg0rv4b8l",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_113_img_000000030_c0.png"
+    },
+    {
+      "_id": "s825jhlud",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_114_img_000000030_c0.png"
+    },
+    {
+      "_id": "st6uymx5j",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_115_img_000000031_c0.png"
+    },
+    {
+      "_id": "stv3bt316",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_116_img_000000031_c0.png"
+    },
+    {
+      "_id": "shkk6hj1i",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_117_img_000000031_c0.png"
+    },
+    {
+      "_id": "sef686mhl",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_118_img_000000031_c0.png"
+    },
+    {
+      "_id": "sps2ze1kg",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_119_img_000000031_c0.png"
+    },
+    {
+      "_id": "snleeo14b",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_120_img_000000031_c0.png"
+    },
+    {
+      "_id": "soep8u2rr",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_121_img_000000031_c0.png"
+    },
+    {
+      "_id": "sv1n06dkv",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_122_img_000000031_c0.png"
+    },
+    {
+      "_id": "sv2pu9xjj",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_123_img_000000032_c0.png"
+    },
+    {
+      "_id": "s7lfszgxg",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_124_img_000000032_c0.png"
+    },
+    {
+      "_id": "ssw9cgxrh",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_125_img_000000032_c0.png"
+    },
+    {
+      "_id": "saim75yzy",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_126_img_000000032_c0.png"
+    },
+    {
+      "_id": "st9c7qcjo",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_127_img_000000032_c0.png"
+    },
+    {
+      "_id": "s3e3qswwq",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_128_img_000000032_c0.png"
+    },
+    {
+      "_id": "sdu50p29h",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_129_img_000000032_c0.png"
+    },
+    {
+      "_id": "scgeug72j",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_130_img_000000032_c0.png"
+    },
+    {
+      "_id": "siq0ao3qn",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_131_img_000000032_c0.png"
+    },
+    {
+      "_id": "suiaarhtd",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_132_img_000000033_c0.png"
+    },
+    {
+      "_id": "so1mddnux",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_133_img_000000034_c0.png"
+    },
+    {
+      "_id": "skod51fpk",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_134_img_000000034_c0.png"
+    },
+    {
+      "_id": "skn95eq6g",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_135_img_000000035_c0.png"
+    },
+    {
+      "_id": "soxt16ulg",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_136_img_000000035_c0.png"
+    },
+    {
+      "_id": "sydl2gugm",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_137_img_000000035_c0.png"
+    },
+    {
+      "_id": "ssqqs998q",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_138_img_000000036_c0.png"
+    },
+    {
+      "_id": "sg9r9yz3h",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_139_img_000000037_c0.png"
+    },
+    {
+      "_id": "smzb9i0pk",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_140_img_000000037_c0.png"
+    },
+    {
+      "_id": "sokdq1c86",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_141_img_000000037_c0.png"
+    },
+    {
+      "_id": "shfpgrehm",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_142_img_000000037_c0.png"
+    },
+    {
+      "_id": "shmyjkf6d",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_143_img_000000038_c0.png"
+    },
+    {
+      "_id": "sz6eu95ke",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_144_img_000000038_c0.png"
+    },
+    {
+      "_id": "s06a0omn9",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_145_img_000000039_c0.png"
+    },
+    {
+      "_id": "scy44kisx",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_146_img_000000039_c0.png"
+    },
+    {
+      "_id": "swmre2rzr",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_147_img_000000039_c0.png"
+    },
+    {
+      "_id": "s2p8hoixg",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_148_img_000000040_c0.png"
+    },
+    {
+      "_id": "s0blw2fbu",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_149_img_000000040_c0.png"
+    },
+    {
+      "_id": "s6h7pohu7",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_150_img_000000040_c0.png"
+    },
+    {
+      "_id": "s4kuffnox",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_151_img_000000041_c0.png"
+    },
+    {
+      "_id": "showhtj48",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_152_img_000000041_c0.png"
+    },
+    {
+      "_id": "sksb01ens",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_153_img_000000041_c0.png"
+    },
+    {
+      "_id": "s26m63vgr",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_154_img_000000041_c0.png"
+    },
+    {
+      "_id": "sopufu0hk",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_155_img_000000042_c0.png"
+    },
+    {
+      "_id": "sdep4g66c",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_156_img_000000042_c0.png"
+    },
+    {
+      "_id": "svusdsvjm",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_157_img_000000042_c0.png"
+    },
+    {
+      "_id": "s6nd5bvxf",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_158_img_000000042_c0.png"
+    },
+    {
+      "_id": "sngs3u6ji",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_159_img_000000043_c0.png"
+    },
+    {
+      "_id": "sullt8hqk",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_160_img_000000043_c0.png"
+    },
+    {
+      "_id": "s6o346jhr",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_161_img_000000043_c0.png"
+    },
+    {
+      "_id": "sjq5m9ni2",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_162_img_000000043_c0.png"
+    },
+    {
+      "_id": "sdmlkhqa4",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_163_img_000000043_c0.png"
+    },
+    {
+      "_id": "si83vzcmo",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_164_img_000000044_c0.png"
+    },
+    {
+      "_id": "saj19hu2d",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_165_img_000000044_c0.png"
+    },
+    {
+      "_id": "s1k3h7ye8",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_166_img_000000044_c0.png"
+    },
+    {
+      "_id": "sr5uk8jnd",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_167_img_000000044_c0.png"
+    },
+    {
+      "_id": "syyjfe892",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_168_img_000000044_c0.png"
+    },
+    {
+      "_id": "s5x1q7673",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_169_img_000000044_c0.png"
+    },
+    {
+      "_id": "sokaqgqir",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_170_img_000000044_c0.png"
+    },
+    {
+      "_id": "ssutcxxa9",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_171_img_000000044_c0.png"
+    },
+    {
+      "_id": "spnd06s8r",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_172_img_000000045_c0.png"
+    },
+    {
+      "_id": "s1jy5qwhw",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_173_img_000000045_c0.png"
+    },
+    {
+      "_id": "skvt1bhq1",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_174_img_000000045_c0.png"
+    },
+    {
+      "_id": "sqyismvec",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_175_img_000000045_c0.png"
+    },
+    {
+      "_id": "ssng8qr8e",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_176_img_000000045_c0.png"
+    },
+    {
+      "_id": "sh729mypf",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_177_img_000000046_c0.png"
+    },
+    {
+      "_id": "s0ncyzpcu",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_178_img_000000047_c0.png"
+    },
+    {
+      "_id": "srermz2y9",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_179_img_000000048_c0.png"
+    },
+    {
+      "_id": "s0adxwoqy",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_180_img_000000048_c0.png"
+    },
+    {
+      "_id": "s1zo1rt3n",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_181_img_000000048_c0.png"
+    },
+    {
+      "_id": "swta94p6d",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_182_img_000000048_c0.png"
+    },
+    {
+      "_id": "smak7jvod",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_183_img_000000048_c0.png"
+    },
+    {
+      "_id": "sn6zs7czp",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_184_img_000000048_c0.png"
+    },
+    {
+      "_id": "s76sc4uzx",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_185_img_000000049_c0.png"
+    },
+    {
+      "_id": "ssf3wfaij",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_186_img_000000049_c0.png"
+    },
+    {
+      "_id": "sgzof1rn2",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_187_img_000000049_c0.png"
+    },
+    {
+      "_id": "spsfb3blh",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_188_img_000000049_c0.png"
+    },
+    {
+      "_id": "sapukked8",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_189_img_000000050_c0.png"
+    },
+    {
+      "_id": "sh5uyast1",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_190_img_000000050_c0.png"
+    },
+    {
+      "_id": "stujkbbaz",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_191_img_000000050_c0.png"
+    },
+    {
+      "_id": "sv8eu9dvy",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_192_img_000000050_c0.png"
+    },
+    {
+      "_id": "s8nzcdhcf",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_193_img_000000050_c0.png"
+    },
+    {
+      "_id": "szls8ixre",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_194_img_000000050_c0.png"
+    },
+    {
+      "_id": "s2wlljox6",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_195_img_000000050_c0.png"
+    },
+    {
+      "_id": "swjlz0jav",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_196_img_000000051_c0.png"
+    },
+    {
+      "_id": "sz4hp0eqy",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_197_img_000000051_c0.png"
+    },
+    {
+      "_id": "s42k0p1ua",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_198_img_000000051_c0.png"
+    },
+    {
+      "_id": "s04isc1zc",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_199_img_000000051_c0.png"
+    },
+    {
+      "_id": "s9svm18q8",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_200_img_000000051_c0.png"
+    },
+    {
+      "_id": "ser6tqp2o",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_201_img_000000051_c0.png"
+    },
+    {
+      "_id": "s8oo5qumg",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_202_img_000000051_c0.png"
+    },
+    {
+      "_id": "sknganv4m",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_203_img_000000051_c0.png"
+    },
+    {
+      "_id": "sgv0e4tql",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_204_img_000000052_c0.png"
+    },
+    {
+      "_id": "sa5a4hsa9",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_205_img_000000052_c0.png"
+    },
+    {
+      "_id": "surq2jjie",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_206_img_000000052_c0.png"
+    },
+    {
+      "_id": "ss7ue3k99",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_207_img_000000052_c0.png"
+    },
+    {
+      "_id": "srs4t1tx6",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_208_img_000000052_c0.png"
+    },
+    {
+      "_id": "swh7mtync",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_209_img_000000052_c0.png"
+    },
+    {
+      "_id": "sy2pipb8s",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_210_img_000000052_c0.png"
+    },
+    {
+      "_id": "sqrkn6pf9",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_211_img_000000052_c0.png"
+    },
+    {
+      "_id": "ssb49y3rk",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_212_img_000000053_c0.png"
+    },
+    {
+      "_id": "sb0su0ddn",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_213_img_000000054_c0.png"
+    },
+    {
+      "_id": "s4h8glbqc",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_214_img_000000054_c0.png"
+    },
+    {
+      "_id": "spg8jnyde",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_215_img_000000054_c0.png"
+    },
+    {
+      "_id": "svq0vdph3",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_216_img_000000054_c0.png"
+    },
+    {
+      "_id": "spai8x5eb",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_217_img_000000055_c0.png"
+    },
+    {
+      "_id": "sivcm3xd8",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_218_img_000000055_c0.png"
+    },
+    {
+      "_id": "srwc2za3m",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_219_img_000000055_c0.png"
+    },
+    {
+      "_id": "syuk60bgc",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_220_img_000000056_c0.png"
+    },
+    {
+      "_id": "s68h55mkn",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_221_img_000000057_c0.png"
+    },
+    {
+      "_id": "sv0l0nuky",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_222_img_000000057_c0.png"
+    },
+    {
+      "_id": "s89rt008m",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_223_img_000000057_c0.png"
+    },
+    {
+      "_id": "se7nk9w2e",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_224_img_000000057_c0.png"
+    },
+    {
+      "_id": "srq6vhpdd",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_225_img_000000058_c0.png"
+    },
+    {
+      "_id": "sewpoz076",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_226_img_000000058_c0.png"
+    },
+    {
+      "_id": "s8gkalghu",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_227_img_000000058_c0.png"
+    },
+    {
+      "_id": "s5dln5cea",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_228_img_000000058_c0.png"
+    },
+    {
+      "_id": "sbrm2zn4s",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_229_img_000000058_c0.png"
+    },
+    {
+      "_id": "so481x8xr",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_230_img_000000058_c0.png"
+    },
+    {
+      "_id": "sju8wzr8p",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_231_img_000000059_c0.png"
+    },
+    {
+      "_id": "s87jxut87",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_232_img_000000059_c0.png"
+    },
+    {
+      "_id": "sz22plct2",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_233_img_000000059_c0.png"
+    },
+    {
+      "_id": "svr2er2no",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_234_img_000000059_c0.png"
+    },
+    {
+      "_id": "s524nmbeq",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_235_img_000000060_c0.png"
+    },
+    {
+      "_id": "skgey31tf",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_236_img_000000060_c0.png"
+    },
+    {
+      "_id": "skkhoo7yj",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_237_img_000000060_c0.png"
+    },
+    {
+      "_id": "sld54jsdk",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_238_img_000000060_c0.png"
+    },
+    {
+      "_id": "sv4oq5hi4",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_239_img_000000061_c0.png"
+    },
+    {
+      "_id": "ssova76li",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_240_img_000000061_c0.png"
+    },
+    {
+      "_id": "s0rihlbdt",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_241_img_000000061_c0.png"
+    },
+    {
+      "_id": "szvnwbl86",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_242_img_000000061_c0.png"
+    },
+    {
+      "_id": "srgeqrbah",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_243_img_000000062_c0.png"
+    },
+    {
+      "_id": "szid0brsf",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_244_img_000000062_c0.png"
+    },
+    {
+      "_id": "shualbw93",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_245_img_000000062_c0.png"
+    },
+    {
+      "_id": "ss7l878ls",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_246_img_000000063_c0.png"
+    },
+    {
+      "_id": "swayewrz9",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_247_img_000000064_c0.png"
+    },
+    {
+      "_id": "s5exrojia",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_248_img_000000064_c0.png"
+    },
+    {
+      "_id": "sc76hrych",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_249_img_000000065_c0.png"
+    },
+    {
+      "_id": "swkg9bgu7",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_250_img_000000065_c0.png"
+    },
+    {
+      "_id": "secmdwqre",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_251_img_000000066_c0.png"
+    },
+    {
+      "_id": "shnoxp97j",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_252_img_000000066_c0.png"
+    },
+    {
+      "_id": "s8vreakme",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_253_img_000000066_c0.png"
+    },
+    {
+      "_id": "sztz1jk9w",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_254_img_000000067_c0.png"
+    },
+    {
+      "_id": "sow7snwix",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_255_img_000000067_c0.png"
+    },
+    {
+      "_id": "s2p0mrw3x",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_256_img_000000067_c0.png"
+    },
+    {
+      "_id": "ssnfwiow2",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_257_img_000000068_c0.png"
+    },
+    {
+      "_id": "sd0id6e2g",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_258_img_000000068_c0.png"
+    },
+    {
+      "_id": "s7mdgjgub",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_259_img_000000068_c0.png"
+    },
+    {
+      "_id": "sintl0amr",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_260_img_000000069_c0.png"
+    },
+    {
+      "_id": "sador7osm",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_261_img_000000069_c0.png"
+    },
+    {
+      "_id": "sou4jpoes",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_262_img_000000069_c0.png"
+    },
+    {
+      "_id": "s2lrwhmda",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_263_img_000000069_c0.png"
+    },
+    {
+      "_id": "sik7dg60b",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_264_img_000000069_c0.png"
+    },
+    {
+      "_id": "sduv3aj8d",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_265_img_000000069_c0.png"
+    },
+    {
+      "_id": "svzjc0b5m",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_266_img_000000070_c0.png"
+    },
+    {
+      "_id": "sp3okphxt",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_267_img_000000070_c0.png"
+    },
+    {
+      "_id": "sj22vptu2",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_268_img_000000070_c0.png"
+    },
+    {
+      "_id": "sqoinhjd9",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_269_img_000000071_c0.png"
+    },
+    {
+      "_id": "st7rtxppk",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_270_img_000000071_c0.png"
+    },
+    {
+      "_id": "szwjitqfq",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_271_img_000000071_c0.png"
+    },
+    {
+      "_id": "saazcm84e",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_272_img_000000072_c0.png"
+    },
+    {
+      "_id": "sazs2w4uu",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_273_img_000000073_c0.png"
+    },
+    {
+      "_id": "s3r78tir9",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_274_img_000000074_c0.png"
+    },
+    {
+      "_id": "sm2su5j6z",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_275_img_000000074_c0.png"
+    },
+    {
+      "_id": "stpedb523",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_276_img_000000074_c0.png"
+    },
+    {
+      "_id": "sppwjzp0r",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_277_img_000000074_c0.png"
+    },
+    {
+      "_id": "sp77ee79x",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_278_img_000000074_c0.png"
+    },
+    {
+      "_id": "sbj0mgfnu",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_279_img_000000075_c0.png"
+    },
+    {
+      "_id": "s02wc1bko",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_280_img_000000075_c0.png"
+    },
+    {
+      "_id": "s9l5cq8dn",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_281_img_000000075_c0.png"
+    },
+    {
+      "_id": "s72ik15ap",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_282_img_000000075_c0.png"
+    },
+    {
+      "_id": "si01snqfn",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_283_img_000000075_c0.png"
+    },
+    {
+      "_id": "sargjaq7y",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_284_img_000000076_c0.png"
+    },
+    {
+      "_id": "sir6iftjj",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_285_img_000000077_c0.png"
+    },
+    {
+      "_id": "sdi3v153o",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_286_img_000000078_c0.png"
+    },
+    {
+      "_id": "s5of6zrdm",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_287_img_000000079_c0.png"
+    },
+    {
+      "_id": "srzsuyqy3",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_288_img_000000079_c0.png"
+    },
+    {
+      "_id": "sjuimw8zi",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_289_img_000000080_c0.png"
+    },
+    {
+      "_id": "syip8qtmq",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_290_img_000000080_c0.png"
+    },
+    {
+      "_id": "su6tulmfu",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_291_img_000000080_c0.png"
+    },
+    {
+      "_id": "sqefqm04a",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_292_img_000000080_c0.png"
+    },
+    {
+      "_id": "so751lef9",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_293_img_000000080_c0.png"
+    },
+    {
+      "_id": "skq848rkf",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_294_img_000000081_c0.png"
+    },
+    {
+      "_id": "sw1bcc95k",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_295_img_000000081_c0.png"
+    },
+    {
+      "_id": "sdql8ygp3",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_296_img_000000081_c0.png"
+    },
+    {
+      "_id": "sxmmw1k5i",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_297_img_000000081_c0.png"
+    },
+    {
+      "_id": "s5uwrbjwm",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_298_img_000000081_c0.png"
+    },
+    {
+      "_id": "szjwoh3g7",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_299_img_000000081_c0.png"
+    },
+    {
+      "_id": "sa87opqwr",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_300_img_000000081_c0.png"
+    },
+    {
+      "_id": "sn9nk919i",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_301_img_000000082_c0.png"
+    },
+    {
+      "_id": "sngcgn3pr",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_302_img_000000082_c0.png"
+    },
+    {
+      "_id": "sqhffnpmg",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_303_img_000000082_c0.png"
+    },
+    {
+      "_id": "sre318xv3",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_304_img_000000082_c0.png"
+    },
+    {
+      "_id": "s3y421cqi",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_305_img_000000082_c0.png"
+    },
+    {
+      "_id": "s2moe3qyx",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_306_img_000000082_c0.png"
+    },
+    {
+      "_id": "sgcds669n",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_307_img_000000083_c0.png"
+    },
+    {
+      "_id": "sytdulb33",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_308_img_000000083_c0.png"
+    },
+    {
+      "_id": "sjmf54mxa",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_309_img_000000083_c0.png"
+    },
+    {
+      "_id": "seubngrnt",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_310_img_000000084_c0.png"
+    },
+    {
+      "_id": "s8hwggep9",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_311_img_000000085_c0.png"
+    },
+    {
+      "_id": "ss591zdcf",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_312_img_000000086_c0.png"
+    },
+    {
+      "_id": "seon3mf38",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_313_img_000000086_c0.png"
+    },
+    {
+      "_id": "s0qq6m5d9",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_314_img_000000086_c0.png"
+    },
+    {
+      "_id": "sfj1b8xuk",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_315_img_000000086_c0.png"
+    },
+    {
+      "_id": "staibur25",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_316_img_000000087_c0.png"
+    },
+    {
+      "_id": "sd590zagf",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_317_img_000000087_c0.png"
+    },
+    {
+      "_id": "sc1z9jopm",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_318_img_000000087_c0.png"
+    },
+    {
+      "_id": "s9lm8apni",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_319_img_000000087_c0.png"
+    },
+    {
+      "_id": "s9q9uxhub",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_320_img_000000087_c0.png"
+    },
+    {
+      "_id": "s31if1t1u",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_321_img_000000087_c0.png"
+    },
+    {
+      "_id": "sob3y8c2g",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_322_img_000000088_c0.png"
+    },
+    {
+      "_id": "s73583fg6",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_323_img_000000089_c0.png"
+    },
+    {
+      "_id": "s29dg3ge8",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_324_img_000000090_c0.png"
+    },
+    {
+      "_id": "s9r21t1fg",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_325_img_000000090_c0.png"
+    },
+    {
+      "_id": "sq6llg0s6",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_326_img_000000090_c0.png"
+    },
+    {
+      "_id": "sw9l0qsvs",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_327_img_000000091_c0.png"
+    },
+    {
+      "_id": "sbtgkfumi",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_328_img_000000091_c0.png"
+    },
+    {
+      "_id": "sjlaynb19",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_329_img_000000091_c0.png"
+    },
+    {
+      "_id": "slk2u8ivf",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_330_img_000000091_c0.png"
+    },
+    {
+      "_id": "snigme4p2",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_331_img_000000092_c0.png"
+    },
+    {
+      "_id": "su96yl3k9",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_332_img_000000092_c0.png"
+    },
+    {
+      "_id": "scin1vv45",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_333_img_000000092_c0.png"
+    },
+    {
+      "_id": "smnq6qdye",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_334_img_000000092_c0.png"
+    },
+    {
+      "_id": "swcioci71",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_335_img_000000092_c0.png"
+    },
+    {
+      "_id": "sifbb1ufc",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_336_img_000000092_c0.png"
+    },
+    {
+      "_id": "svxw2jmxo",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_337_img_000000092_c0.png"
+    },
+    {
+      "_id": "svgau5ziy",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_338_img_000000093_c0.png"
+    },
+    {
+      "_id": "sg3woz9ea",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_339_img_000000093_c0.png"
+    },
+    {
+      "_id": "sckvhejdd",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_340_img_000000093_c0.png"
+    },
+    {
+      "_id": "sg1tp51a1",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_341_img_000000093_c0.png"
+    },
+    {
+      "_id": "sj86gecq2",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_342_img_000000093_c0.png"
+    },
+    {
+      "_id": "stf0llz48",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_343_img_000000093_c0.png"
+    },
+    {
+      "_id": "s4ed9f75x",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_344_img_000000093_c0.png"
+    },
+    {
+      "_id": "szox7gbqt",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_345_img_000000094_c0.png"
+    },
+    {
+      "_id": "slzpx3znt",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_346_img_000000094_c0.png"
+    },
+    {
+      "_id": "syun9jphn",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_347_img_000000094_c0.png"
+    },
+    {
+      "_id": "sp2joo5lo",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_348_img_000000094_c0.png"
+    },
+    {
+      "_id": "sghp7vrpj",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_349_img_000000094_c0.png"
+    },
+    {
+      "_id": "so27hknt4",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_350_img_000000095_c0.png"
+    },
+    {
+      "_id": "srcrue88x",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_351_img_000000095_c0.png"
+    },
+    {
+      "_id": "swclrgpgi",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_352_img_000000096_c0.png"
+    },
+    {
+      "_id": "sb2465la1",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_353_img_000000096_c0.png"
+    },
+    {
+      "_id": "scp29c9il",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_354_img_000000097_c0.png"
+    },
+    {
+      "_id": "s3aov78wp",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_355_img_000000097_c0.png"
+    },
+    {
+      "_id": "s6v6f7bcn",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_356_img_000000097_c0.png"
+    },
+    {
+      "_id": "slc360ue6",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_357_img_000000097_c0.png"
+    },
+    {
+      "_id": "s7s2lioge",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_358_img_000000098_c0.png"
+    },
+    {
+      "_id": "sljhch3t2",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_359_img_000000098_c0.png"
+    },
+    {
+      "_id": "scwqjwheg",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_360_img_000000098_c0.png"
+    },
+    {
+      "_id": "syx8um5kh",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_361_img_000000098_c0.png"
+    },
+    {
+      "_id": "sfyzlhkiu",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_362_img_000000098_c0.png"
+    },
+    {
+      "_id": "s5tmfc3jj",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_363_img_000000098_c0.png"
+    },
+    {
+      "_id": "s0yj4s2xc",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_364_img_000000100_c0.png"
+    },
+    {
+      "_id": "sk4mticw9",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_365_img_000000100_c0.png"
+    },
+    {
+      "_id": "syjp49epg",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_366_img_000000100_c0.png"
+    },
+    {
+      "_id": "sirvph4cv",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_367_img_000000099_c0.png"
+    },
+    {
+      "_id": "sifsymxcw",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_368_img_000000099_c0.png"
+    },
+    {
+      "_id": "s602rjupt",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_369_img_000000099_c0.png"
+    },
+    {
+      "_id": "sbxt5l11t",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_370_img_000000099_c0.png"
+    },
+    {
+      "_id": "svv2veq96",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_371_img_000000099_c0.png"
+    },
+    {
+      "_id": "sxixh95v7",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_372_img_000000099_c0.png"
+    },
+    {
+      "_id": "sszsk9u5g",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_373_img_000000099_c0.png"
+    },
+    {
+      "_id": "sovnfr63i",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_374_img_000000101_c0.png"
+    },
+    {
+      "_id": "s23j9t0jf",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_375_img_000000101_c0.png"
+    },
+    {
+      "_id": "stp9xy10a",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_376_img_000000101_c0.png"
+    },
+    {
+      "_id": "sdrupqo2a",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_377_img_000000101_c0.png"
+    },
+    {
+      "_id": "sfuwgimny",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_378_img_000000101_c0.png"
+    },
+    {
+      "_id": "s1s4czmlm",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_379_img_000000101_c0.png"
+    },
+    {
+      "_id": "szug97asg",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_380_img_000000101_c0.png"
+    },
+    {
+      "_id": "skmuardum",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_381_img_000000101_c0.png"
+    },
+    {
+      "_id": "snv8g0njf",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_382_img_000000101_c0.png"
+    },
+    {
+      "_id": "sq0lnepze",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_383_img_000000102_c0.png"
+    },
+    {
+      "_id": "sp0ov3hgi",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_384_img_000000102_c0.png"
+    },
+    {
+      "_id": "szwfvrc5a",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_385_img_000000102_c0.png"
+    },
+    {
+      "_id": "swif9jrit",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_386_img_000000102_c0.png"
+    },
+    {
+      "_id": "svx494bud",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_387_img_000000102_c0.png"
+    },
+    {
+      "_id": "s3b8zshdg",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_388_img_000000102_c0.png"
+    },
+    {
+      "_id": "smcx46h4n",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_389_img_000000102_c0.png"
+    },
+    {
+      "_id": "sxekbugru",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_390_img_000000102_c0.png"
+    },
+    {
+      "_id": "s90j4m9ta",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_391_img_000000102_c0.png"
+    },
+    {
+      "_id": "sv000t615",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_392_img_000000103_c0.png"
+    },
+    {
+      "_id": "s3ctt7xoi",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_393_img_000000103_c0.png"
+    },
+    {
+      "_id": "stlh2r5rg",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_394_img_000000103_c0.png"
+    },
+    {
+      "_id": "s2ub6knpd",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_395_img_000000103_c0.png"
+    },
+    {
+      "_id": "so7pnz066",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_396_img_000000103_c0.png"
+    },
+    {
+      "_id": "sdlfbs32c",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_397_img_000000104_c0.png"
+    },
+    {
+      "_id": "scoeo22ld",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_398_img_000000104_c0.png"
+    },
+    {
+      "_id": "shi3umcr7",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_399_img_000000104_c0.png"
+    },
+    {
+      "_id": "svx4e20zg",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_400_img_000000104_c0.png"
+    },
+    {
+      "_id": "sla056o2f",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_401_img_000000104_c0.png"
+    },
+    {
+      "_id": "shnezalns",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_402_img_000000104_c0.png"
+    },
+    {
+      "_id": "slxffqmma",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_403_img_000000104_c0.png"
+    },
+    {
+      "_id": "skfb83ejo",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_404_img_000000104_c0.png"
+    },
+    {
+      "_id": "saj2doehi",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_405_img_000000105_c0.png"
+    },
+    {
+      "_id": "sedrg2lai",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_406_img_000000105_c0.png"
+    },
+    {
+      "_id": "s8y60hexw",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_407_img_000000105_c0.png"
+    },
+    {
+      "_id": "sysz2gl4h",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_408_img_000000105_c0.png"
+    },
+    {
+      "_id": "sdaq810li",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_409_img_000000105_c0.png"
+    },
+    {
+      "_id": "s0re9lhf4",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_410_img_000000105_c0.png"
+    },
+    {
+      "_id": "s3xjt36xv",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_411_img_000000105_c0.png"
+    },
+    {
+      "_id": "smexp4d0u",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_412_img_000000105_c0.png"
+    },
+    {
+      "_id": "sexjlmimf",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_413_img_000000105_c0.png"
+    },
+    {
+      "_id": "sgi49kryl",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_414_img_000000105_c0.png"
+    },
+    {
+      "_id": "slqkbtarw",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_415_img_000000106_c0.png"
+    },
+    {
+      "_id": "sup620k2e",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_416_img_000000106_c0.png"
+    },
+    {
+      "_id": "s899mafz3",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_417_img_000000106_c0.png"
+    },
+    {
+      "_id": "s2n0nvt3m",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_418_img_000000106_c0.png"
+    },
+    {
+      "_id": "sxckzvskg",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_419_img_000000106_c0.png"
+    },
+    {
+      "_id": "ste8j2f5d",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_420_img_000000106_c0.png"
+    },
+    {
+      "_id": "s21aq13mp",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_421_img_000000106_c0.png"
+    },
+    {
+      "_id": "scyvecofe",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_422_img_000000106_c0.png"
+    },
+    {
+      "_id": "s3gbp1ttc",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_423_img_000000107_c0.png"
+    },
+    {
+      "_id": "stczcx2w9",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_424_img_000000107_c0.png"
+    },
+    {
+      "_id": "sbs05ugh1",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_425_img_000000107_c0.png"
+    },
+    {
+      "_id": "sdwn1g48s",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_426_img_000000107_c0.png"
+    },
+    {
+      "_id": "s5slyaf3l",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_427_img_000000107_c0.png"
+    },
+    {
+      "_id": "sj1b1zo4b",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_428_img_000000107_c0.png"
+    },
+    {
+      "_id": "sv79m841l",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_429_img_000000108_c0.png"
+    },
+    {
+      "_id": "szb2242p9",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_430_img_000000108_c0.png"
+    },
+    {
+      "_id": "sarhuviig",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_431_img_000000108_c0.png"
+    },
+    {
+      "_id": "si6blnglc",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_432_img_000000108_c0.png"
+    },
+    {
+      "_id": "s9rhcuwxk",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_433_img_000000108_c0.png"
+    },
+    {
+      "_id": "s0jszs46l",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_434_img_000000108_c0.png"
+    },
+    {
+      "_id": "s3t5ytnrg",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_435_img_000000108_c0.png"
+    },
+    {
+      "_id": "svmhi8h29",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_436_img_000000108_c0.png"
+    },
+    {
+      "_id": "sfgcle4gz",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_437_img_000000109_c0.png"
+    },
+    {
+      "_id": "sgbgo4j5j",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_438_img_000000109_c0.png"
+    },
+    {
+      "_id": "sm1sgz18q",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_439_img_000000109_c0.png"
+    },
+    {
+      "_id": "srxyp8p0q",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_440_img_000000110_c0.png"
+    },
+    {
+      "_id": "sdq6zy1rg",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_441_img_000000110_c0.png"
+    },
+    {
+      "_id": "sui7wsgve",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_442_img_000000110_c0.png"
+    },
+    {
+      "_id": "sr60x4eup",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_443_img_000000110_c0.png"
+    },
+    {
+      "_id": "si1yqotea",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_444_img_000000111_c0.png"
+    },
+    {
+      "_id": "s1o0n5cdi",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_445_img_000000111_c0.png"
+    },
+    {
+      "_id": "swewfji28",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_446_img_000000111_c0.png"
+    },
+    {
+      "_id": "swn91sann",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_447_img_000000112_c0.png"
+    },
+    {
+      "_id": "sb89hcwqb",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_448_img_000000112_c0.png"
+    },
+    {
+      "_id": "svny44b3a",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_449_img_000000113_c0.png"
+    },
+    {
+      "_id": "sxicytvor",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_450_img_000000115_c0.png"
+    },
+    {
+      "_id": "s04b6tokr",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_451_img_000000115_c0.png"
+    },
+    {
+      "_id": "s4hjg5uu4",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_452_img_000000115_c0.png"
+    },
+    {
+      "_id": "scg04pyl9",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_453_img_000000116_c0.png"
+    },
+    {
+      "_id": "s6af3jg5l",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_454_img_000000116_c0.png"
+    },
+    {
+      "_id": "sbm5o56jc",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_455_img_000000116_c0.png"
+    },
+    {
+      "_id": "sjh3z838m",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_456_img_000000116_c0.png"
+    },
+    {
+      "_id": "sd43w7u41",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_457_img_000000116_c0.png"
+    },
+    {
+      "_id": "sf2cc5d0g",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_458_img_000000116_c0.png"
+    },
+    {
+      "_id": "skjyhjfwh",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_459_img_000000117_c0.png"
+    },
+    {
+      "_id": "sh889cv8e",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_460_img_000000117_c0.png"
+    },
+    {
+      "_id": "s8jpt8gvb",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_461_img_000000117_c0.png"
+    },
+    {
+      "_id": "snc4h9q8o",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_462_img_000000117_c0.png"
+    },
+    {
+      "_id": "sh8icvxsp",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_463_img_000000117_c0.png"
+    },
+    {
+      "_id": "sl321xp8x",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_464_img_000000117_c0.png"
+    },
+    {
+      "_id": "sojc5ohyk",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_465_img_000000117_c0.png"
+    },
+    {
+      "_id": "stu399eun",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_466_img_000000118_c0.png"
+    },
+    {
+      "_id": "sv6zjjr0n",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_467_img_000000118_c0.png"
+    },
+    {
+      "_id": "ssthvfq04",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_468_img_000000118_c0.png"
+    },
+    {
+      "_id": "slv0e785y",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_469_img_000000118_c0.png"
+    },
+    {
+      "_id": "s2zfzeixg",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_470_img_000000119_c0.png"
+    },
+    {
+      "_id": "slsyqrsng",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_471_img_000000119_c0.png"
+    },
+    {
+      "_id": "sy2ql9avs",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_472_img_000000119_c0.png"
+    },
+    {
+      "_id": "sjk0khhma",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_473_img_000000119_c0.png"
+    },
+    {
+      "_id": "svme16ju5",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_474_img_000000119_c0.png"
+    },
+    {
+      "_id": "sa753k1ky",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_475_img_000000120_c0.png"
+    },
+    {
+      "_id": "s4hv38shj",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_476_img_000000120_c0.png"
+    },
+    {
+      "_id": "smisdww1a",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_477_img_000000120_c0.png"
+    },
+    {
+      "_id": "s4egvgl32",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_478_img_000000120_c0.png"
+    },
+    {
+      "_id": "s8fuvvgqm",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_479_img_000000120_c0.png"
+    },
+    {
+      "_id": "sb7n3yrxi",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_480_img_000000121_c0.png"
+    },
+    {
+      "_id": "sddti2p5m",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_481_img_000000121_c0.png"
+    },
+    {
+      "_id": "symwwct9i",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_482_img_000000121_c0.png"
+    },
+    {
+      "_id": "s9l8elsj2",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_483_img_000000121_c0.png"
+    },
+    {
+      "_id": "sbpzaz89j",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_484_img_000000121_c0.png"
+    },
+    {
+      "_id": "s4wc57gqb",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_485_img_000000122_c0.png"
+    },
+    {
+      "_id": "s8ly0xkt6",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_486_img_000000122_c0.png"
+    },
+    {
+      "_id": "scrg8o6hg",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_487_img_000000122_c0.png"
+    },
+    {
+      "_id": "sam98fg5g",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_488_img_000000122_c0.png"
+    },
+    {
+      "_id": "s6ploskpf",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_489_img_000000122_c0.png"
+    },
+    {
+      "_id": "sni72zq7f",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_490_img_000000122_c0.png"
+    },
+    {
+      "_id": "slipsb51q",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_491_img_000000123_c0.png"
+    },
+    {
+      "_id": "spkx72h5h",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_492_img_000000123_c0.png"
+    },
+    {
+      "_id": "s4ezcba49",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_493_img_000000123_c0.png"
+    },
+    {
+      "_id": "s4hckgbjl",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_494_img_000000123_c0.png"
+    },
+    {
+      "_id": "saev9ew9k",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_495_img_000000123_c0.png"
+    },
+    {
+      "_id": "s3n1o31gr",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_496_img_000000123_c0.png"
+    },
+    {
+      "_id": "sik1hw0ta",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_497_img_000000123_c0.png"
+    },
+    {
+      "_id": "slznr2ycc",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_498_img_000000123_c0.png"
+    },
+    {
+      "_id": "so78y28od",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_499_img_000000123_c0.png"
+    },
+    {
+      "_id": "s3pvde9ia",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_500_img_000000124_c0.png"
+    },
+    {
+      "_id": "s4bpuhcvq",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_501_img_000000124_c0.png"
+    },
+    {
+      "_id": "s4nfkvbfk",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_502_img_000000124_c0.png"
+    },
+    {
+      "_id": "s233etfdc",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_503_img_000000124_c0.png"
+    },
+    {
+      "_id": "szutl3vuh",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_504_img_000000124_c0.png"
+    },
+    {
+      "_id": "sc1327crk",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_505_img_000000124_c0.png"
+    },
+    {
+      "_id": "s1m6ju86s",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_506_img_000000125_c0.png"
+    },
+    {
+      "_id": "sf4l6g3e6",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_507_img_000000125_c0.png"
+    },
+    {
+      "_id": "s2lbpfdyl",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_508_img_000000125_c0.png"
+    },
+    {
+      "_id": "sqxmmh8ox",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_509_img_000000125_c0.png"
+    },
+    {
+      "_id": "siyko083j",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_510_img_000000125_c0.png"
+    },
+    {
+      "_id": "shlxw2v3h",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_511_img_000000125_c0.png"
+    },
+    {
+      "_id": "slnq8njge",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_512_img_000000125_c0.png"
+    },
+    {
+      "_id": "sgyeyaxtz",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_513_img_000000125_c0.png"
+    },
+    {
+      "_id": "sidlxhd4i",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_514_img_000000126_c0.png"
+    },
+    {
+      "_id": "s46ywi4sj",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_515_img_000000127_c0.png"
+    },
+    {
+      "_id": "slir2nx5c",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_516_img_000000127_c0.png"
+    },
+    {
+      "_id": "s9fc5cdmi",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_517_img_000000127_c0.png"
+    },
+    {
+      "_id": "s51f1kcm3",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_518_img_000000127_c0.png"
+    },
+    {
+      "_id": "s4zgt7yvp",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_519_img_000000128_c0.png"
+    },
+    {
+      "_id": "sdgiwv2f8",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_520_img_000000128_c0.png"
+    },
+    {
+      "_id": "s4he2kcae",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_521_img_000000128_c0.png"
+    },
+    {
+      "_id": "shxndscpf",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_522_img_000000129_c0.png"
+    },
+    {
+      "_id": "sk3no17h8",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_523_img_000000129_c0.png"
+    },
+    {
+      "_id": "sdayxgpl9",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_524_img_000000129_c0.png"
+    },
+    {
+      "_id": "shezpw8rq",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_525_img_000000129_c0.png"
+    },
+    {
+      "_id": "s4wxz0x9u",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_526_img_000000129_c0.png"
+    },
+    {
+      "_id": "sqhjkcfva",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_527_img_000000129_c0.png"
+    },
+    {
+      "_id": "s6auv77z2",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_528_img_000000130_c0.png"
+    },
+    {
+      "_id": "s676z0ce5",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_529_img_000000130_c0.png"
+    },
+    {
+      "_id": "sfudelodj",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_530_img_000000130_c0.png"
+    },
+    {
+      "_id": "s9qel9wsx",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_531_img_000000130_c0.png"
+    },
+    {
+      "_id": "sxrk1mn8a",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_532_img_000000130_c0.png"
+    },
+    {
+      "_id": "s26jdtkpq",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_533_img_000000131_c0.png"
+    },
+    {
+      "_id": "scgher7qx",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_534_img_000000131_c0.png"
+    },
+    {
+      "_id": "steag9ay7",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_535_img_000000131_c0.png"
+    },
+    {
+      "_id": "snrvbfsft",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_536_img_000000131_c0.png"
+    },
+    {
+      "_id": "s9it26ngm",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_537_img_000000131_c0.png"
+    },
+    {
+      "_id": "smb9vywcu",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_538_img_000000132_c0.png"
+    },
+    {
+      "_id": "szc6sq61k",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_539_img_000000132_c0.png"
+    },
+    {
+      "_id": "szduyhwz7",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_540_img_000000132_c0.png"
+    },
+    {
+      "_id": "s0qelaal9",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_541_img_000000132_c0.png"
+    },
+    {
+      "_id": "slt0op3ch",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_542_img_000000132_c0.png"
+    },
+    {
+      "_id": "so25wyilf",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_543_img_000000132_c0.png"
+    },
+    {
+      "_id": "s2bm6zx9b",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_544_img_000000133_c0.png"
+    },
+    {
+      "_id": "si9qhs30s",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_545_img_000000133_c0.png"
+    },
+    {
+      "_id": "sl9at2x9b",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_546_img_000000133_c0.png"
+    },
+    {
+      "_id": "smpqxsqo4",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_547_img_000000134_c0.png"
+    },
+    {
+      "_id": "s2rt16evi",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_548_img_000000134_c0.png"
+    },
+    {
+      "_id": "sxf5252le",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_549_img_000000134_c0.png"
+    },
+    {
+      "_id": "sfwjdudt9",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_550_img_000000171_c0.png"
+    },
+    {
+      "_id": "sjmzir0y7",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_551_img_000000171_c0.png"
+    },
+    {
+      "_id": "sqdbnudji",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_552_img_000000171_c0.png"
+    },
+    {
+      "_id": "sylirbsa3",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_553_img_000000171_c0.png"
+    },
+    {
+      "_id": "si4jj9n44",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_554_img_000000135_c0.png"
+    },
+    {
+      "_id": "si4lv30z2",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_555_img_000000135_c0.png"
+    },
+    {
+      "_id": "sbldau14r",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_556_img_000000136_c0.png"
+    },
+    {
+      "_id": "sf8tozi4v",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_557_img_000000136_c0.png"
+    },
+    {
+      "_id": "s5wyl44bq",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_558_img_000000136_c0.png"
+    },
+    {
+      "_id": "spyingmnh",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_559_img_000000136_c0.png"
+    },
+    {
+      "_id": "ssuh0rr7d",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_560_img_000000137_c0.png"
+    },
+    {
+      "_id": "sa0nkjq83",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_561_img_000000137_c0.png"
+    },
+    {
+      "_id": "s3d228nqs",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_562_img_000000137_c0.png"
+    },
+    {
+      "_id": "sr2dolezp",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_563_img_000000137_c0.png"
+    },
+    {
+      "_id": "st41tzuxs",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_564_img_000000137_c0.png"
+    },
+    {
+      "_id": "sgqtp6frg",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_565_img_000000137_c0.png"
+    },
+    {
+      "_id": "skm5rzbg9",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_566_img_000000137_c0.png"
+    },
+    {
+      "_id": "splk77osg",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_567_img_000000137_c0.png"
+    },
+    {
+      "_id": "smjl3hjqm",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_568_img_000000138_c0.png"
+    },
+    {
+      "_id": "s8oc8cd9n",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_569_img_000000138_c0.png"
+    },
+    {
+      "_id": "sf5cn39al",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_570_img_000000138_c0.png"
+    },
+    {
+      "_id": "soo6p547x",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_571_img_000000139_c0.png"
+    },
+    {
+      "_id": "s446cvu9s",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_572_img_000000139_c0.png"
+    },
+    {
+      "_id": "svr3zkcfr",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_573_img_000000139_c0.png"
+    },
+    {
+      "_id": "szhnfcvlg",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_574_img_000000140_c0.png"
+    },
+    {
+      "_id": "sdwjhnz96",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_575_img_000000140_c0.png"
+    },
+    {
+      "_id": "sdd858fde",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_576_img_000000140_c0.png"
+    },
+    {
+      "_id": "sb5kncobf",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_577_img_000000140_c0.png"
+    },
+    {
+      "_id": "sn1zl0oe7",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_578_img_000000140_c0.png"
+    },
+    {
+      "_id": "sdjrkt11p",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_579_img_000000141_c0.png"
+    },
+    {
+      "_id": "s4idl2mox",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_580_img_000000142_c0.png"
+    },
+    {
+      "_id": "sbx5p4oal",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_581_img_000000142_c0.png"
+    },
+    {
+      "_id": "sezrgc18i",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_582_img_000000142_c0.png"
+    },
+    {
+      "_id": "s097uqtn6",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_583_img_000000142_c0.png"
+    },
+    {
+      "_id": "spjmouedc",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_584_img_000000142_c0.png"
+    },
+    {
+      "_id": "sso2fdp7j",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_585_img_000000143_c0.png"
+    },
+    {
+      "_id": "sfvtaxcoc",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_586_img_000000143_c0.png"
+    },
+    {
+      "_id": "sevzmf4n9",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_587_img_000000143_c0.png"
+    },
+    {
+      "_id": "sgp0kkydb",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_588_img_000000143_c0.png"
+    },
+    {
+      "_id": "sxtvyj4z4",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_589_img_000000144_c0.png"
+    },
+    {
+      "_id": "s2f242hqd",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_590_img_000000144_c0.png"
+    },
+    {
+      "_id": "shsrnyoja",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_591_img_000000144_c0.png"
+    },
+    {
+      "_id": "sb5u3vccn",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_592_img_000000144_c0.png"
+    },
+    {
+      "_id": "suqj33j1p",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_593_img_000000144_c0.png"
+    },
+    {
+      "_id": "skah7ja4n",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_594_img_000000145_c0.png"
+    },
+    {
+      "_id": "sweuta4zx",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_595_img_000000145_c0.png"
+    },
+    {
+      "_id": "scrctywvo",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_596_img_000000145_c0.png"
+    },
+    {
+      "_id": "shtepvv2f",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_597_img_000000145_c0.png"
+    },
+    {
+      "_id": "smv8y6x1m",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_598_img_000000145_c0.png"
+    },
+    {
+      "_id": "s74v0r86h",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_599_img_000000146_c0.png"
+    },
+    {
+      "_id": "ske5gr3ej",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_600_img_000000146_c0.png"
+    },
+    {
+      "_id": "syn79z7ow",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_601_img_000000146_c0.png"
+    },
+    {
+      "_id": "s502tmfrs",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_602_img_000000146_c0.png"
+    },
+    {
+      "_id": "sfdkl7f5k",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_603_img_000000146_c0.png"
+    },
+    {
+      "_id": "ssck5ydwq",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_604_img_000000147_c0.png"
+    },
+    {
+      "_id": "sw8778zdi",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_605_img_000000147_c0.png"
+    },
+    {
+      "_id": "s07zhx0ri",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_606_img_000000147_c0.png"
+    },
+    {
+      "_id": "skq72gkc7",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_607_img_000000148_c0.png"
+    },
+    {
+      "_id": "sdmw13cxm",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_608_img_000000148_c0.png"
+    },
+    {
+      "_id": "sy161fotr",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_609_img_000000148_c0.png"
+    },
+    {
+      "_id": "smwnols5s",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_610_img_000000148_c0.png"
+    },
+    {
+      "_id": "ss3wrsfak",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_611_img_000000149_c0.png"
+    },
+    {
+      "_id": "srcbe617g",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_612_img_000000149_c0.png"
+    },
+    {
+      "_id": "s7xx8e1ad",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_613_img_000000150_c0.png"
+    },
+    {
+      "_id": "s1oskkwyw",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_614_img_000000150_c0.png"
+    },
+    {
+      "_id": "sx6k4uilj",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_615_img_000000150_c0.png"
+    },
+    {
+      "_id": "soajtvgzf",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_616_img_000000151_c0.png"
+    },
+    {
+      "_id": "stck0zv1w",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_617_img_000000151_c0.png"
+    },
+    {
+      "_id": "sp7h3rvw4",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_618_img_000000152_c0.png"
+    },
+    {
+      "_id": "sk0c6c41l",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_619_img_000000152_c0.png"
+    },
+    {
+      "_id": "svldfb2gf",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_620_img_000000153_c0.png"
+    },
+    {
+      "_id": "sqybpcd1o",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_621_img_000000153_c0.png"
+    },
+    {
+      "_id": "smzgjg8ce",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_622_img_000000153_c0.png"
+    },
+    {
+      "_id": "sffu8936w",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_623_img_000000154_c0.png"
+    },
+    {
+      "_id": "st20g0x33",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_624_img_000000154_c0.png"
+    },
+    {
+      "_id": "si60pmq0c",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_625_img_000000155_c0.png"
+    },
+    {
+      "_id": "sh7yec8b9",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_626_img_000000155_c0.png"
+    },
+    {
+      "_id": "sz4r0lcor",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_627_img_000000156_c0.png"
+    },
+    {
+      "_id": "sn3jybj71",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_628_img_000000156_c0.png"
+    },
+    {
+      "_id": "shn75l39e",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_629_img_000000156_c0.png"
+    },
+    {
+      "_id": "svf7jbwkl",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_630_img_000000157_c0.png"
+    },
+    {
+      "_id": "sp8l8tbz8",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_631_img_000000158_c0.png"
+    },
+    {
+      "_id": "sy33vs1q8",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_632_img_000000158_c0.png"
+    },
+    {
+      "_id": "soixbolks",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_633_img_000000158_c0.png"
+    },
+    {
+      "_id": "sg7lm6j47",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_634_img_000000159_c0.png"
+    },
+    {
+      "_id": "snpmh74xe",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_635_img_000000159_c0.png"
+    },
+    {
+      "_id": "s9600jfhv",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_636_img_000000159_c0.png"
+    },
+    {
+      "_id": "sjyd7g8ql",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_637_img_000000159_c0.png"
+    },
+    {
+      "_id": "sx8w78ywa",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_638_img_000000159_c0.png"
+    },
+    {
+      "_id": "sk2520n6a",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_639_img_000000159_c0.png"
+    },
+    {
+      "_id": "sfku0g8r3",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_640_img_000000160_c0.png"
+    },
+    {
+      "_id": "s7ankn0n7",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_641_img_000000160_c0.png"
+    },
+    {
+      "_id": "s9ss5ere9",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_642_img_000000160_c0.png"
+    },
+    {
+      "_id": "sp1zpu32z",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_643_img_000000160_c0.png"
+    },
+    {
+      "_id": "swi4002lp",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_644_img_000000160_c0.png"
+    },
+    {
+      "_id": "sx7fhhccv",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_645_img_000000160_c0.png"
+    },
+    {
+      "_id": "szciqphqx",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_646_img_000000161_c0.png"
+    },
+    {
+      "_id": "sj31twb2h",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_647_img_000000161_c0.png"
+    },
+    {
+      "_id": "s0xes05o7",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_648_img_000000161_c0.png"
+    },
+    {
+      "_id": "s8nz6meff",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_649_img_000000161_c0.png"
+    },
+    {
+      "_id": "sj3iaq8px",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_650_img_000000161_c0.png"
+    },
+    {
+      "_id": "sym7uexr9",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_651_img_000000162_c0.png"
+    },
+    {
+      "_id": "sxhk5wiec",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_652_img_000000162_c0.png"
+    },
+    {
+      "_id": "ss7bcfvmq",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_653_img_000000162_c0.png"
+    },
+    {
+      "_id": "spkn4omdl",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_654_img_000000162_c0.png"
+    },
+    {
+      "_id": "sbxfr18b9",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_655_img_000000163_c0.png"
+    },
+    {
+      "_id": "s0vlr5y4t",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_656_img_000000163_c0.png"
+    },
+    {
+      "_id": "s1s1efpa4",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_657_img_000000163_c0.png"
+    },
+    {
+      "_id": "sty193l9h",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_658_img_000000163_c0.png"
+    },
+    {
+      "_id": "s452tb1p9",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_659_img_000000163_c0.png"
+    },
+    {
+      "_id": "svqw4b5m9",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_660_img_000000164_c0.png"
+    },
+    {
+      "_id": "s2hwo728g",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_661_img_000000164_c0.png"
+    },
+    {
+      "_id": "s74i1axl8",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_662_img_000000164_c0.png"
+    },
+    {
+      "_id": "sbdgy6spn",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_663_img_000000164_c0.png"
+    },
+    {
+      "_id": "sy9jgg9i6",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_664_img_000000164_c0.png"
+    },
+    {
+      "_id": "svn1kckgi",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_665_img_000000165_c0.png"
+    },
+    {
+      "_id": "si369jjom",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_666_img_000000165_c0.png"
+    },
+    {
+      "_id": "sesupxkds",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_667_img_000000165_c0.png"
+    },
+    {
+      "_id": "seijwi34j",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_668_img_000000166_c0.png"
+    },
+    {
+      "_id": "slb3gnizr",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_669_img_000000166_c0.png"
+    },
+    {
+      "_id": "sj6nt80d9",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_670_img_000000166_c0.png"
+    },
+    {
+      "_id": "sjt4ekmgi",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_671_img_000000166_c0.png"
+    },
+    {
+      "_id": "sey6vfmj4",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_672_img_000000166_c0.png"
+    },
+    {
+      "_id": "sl76cq9bs",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_673_img_000000166_c0.png"
+    },
+    {
+      "_id": "sleay70uo",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_674_img_000000167_c0.png"
+    },
+    {
+      "_id": "svt7attb5",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_675_img_000000167_c0.png"
+    },
+    {
+      "_id": "ss4qpb8vr",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_676_img_000000167_c0.png"
+    },
+    {
+      "_id": "s0m2f6fr8",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_677_img_000000167_c0.png"
+    },
+    {
+      "_id": "s1994iw9t",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_678_img_000000168_c0.png"
+    },
+    {
+      "_id": "s2f10k9nr",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_679_img_000000168_c0.png"
+    },
+    {
+      "_id": "sldvkqgpf",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_680_img_000000168_c0.png"
+    },
+    {
+      "_id": "sv3zk3inb",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_681_img_000000169_c0.png"
+    },
+    {
+      "_id": "s6ferjq6t",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_682_img_000000169_c0.png"
+    },
+    {
+      "_id": "soz0jjcve",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_683_img_000000169_c0.png"
+    },
+    {
+      "_id": "sbgmcglbr",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_684_img_000000169_c0.png"
+    },
+    {
+      "_id": "s7v4ostjn",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_685_img_000000170_c0.png"
+    },
+    {
+      "_id": "stscbrh9r",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_686_img_000000170_c0.png"
+    },
+    {
+      "_id": "sd18qjpyj",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_687_img_000000170_c0.png"
+    },
+    {
+      "_id": "slbgeznhs",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_688_img_000000170_c0.png"
+    },
+    {
+      "_id": "s94l58lao",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_689_img_000000172_c0.png"
+    },
+    {
+      "_id": "sl47n67pr",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_690_img_000000173_c0.png"
+    },
+    {
+      "_id": "sygaljpb8",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_691_img_000000173_c0.png"
+    },
+    {
+      "_id": "sp05kchti",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_692_img_000000173_c0.png"
+    },
+    {
+      "_id": "s6oayy77y",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_693_img_000000174_c0.png"
+    },
+    {
+      "_id": "sg2fd2wgp",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_694_img_000000174_c0.png"
+    },
+    {
+      "_id": "sbj2l7mkr",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_695_img_000000174_c0.png"
+    },
+    {
+      "_id": "s22w0uthq",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_696_img_000000175_c0.png"
+    },
+    {
+      "_id": "syufu0nbl",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_697_img_000000175_c0.png"
+    },
+    {
+      "_id": "so3h2k07a",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_698_img_000000175_c0.png"
+    },
+    {
+      "_id": "s4hxvnl1s",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_699_img_000000176_c0.png"
+    },
+    {
+      "_id": "svk5snm1u",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_700_img_000000176_c0.png"
+    },
+    {
+      "_id": "s81cd1awr",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_701_img_000000177_c0.png"
+    },
+    {
+      "_id": "s2wezhin7",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_702_img_000000177_c0.png"
+    },
+    {
+      "_id": "s29u7ogtq",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_703_img_000000178_c0.png"
+    },
+    {
+      "_id": "s05b59rkt",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_704_img_000000179_c0.png"
+    },
+    {
+      "_id": "sdo6osxfj",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_705_img_000000180_c0.png"
+    },
+    {
+      "_id": "shxfte24d",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_706_img_000000180_c0.png"
+    },
+    {
+      "_id": "s52nzx8mh",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_707_img_000000180_c0.png"
+    },
+    {
+      "_id": "shpj2rlnn",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_708_img_000000180_c0.png"
+    },
+    {
+      "_id": "s5wmfoksu",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_709_img_000000180_c0.png"
+    },
+    {
+      "_id": "sw1rfqbst",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_710_img_000000180_c0.png"
+    },
+    {
+      "_id": "sexunexrr",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_711_img_000000181_c0.png"
+    },
+    {
+      "_id": "sfy86t4fb",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_712_img_000000181_c0.png"
+    },
+    {
+      "_id": "sfor3dwj1",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_713_img_000000181_c0.png"
+    },
+    {
+      "_id": "s230rgmdf",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_714_img_000000182_c0.png"
+    },
+    {
+      "_id": "skn7vj76v",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_715_img_000000182_c0.png"
+    },
+    {
+      "_id": "sj2u2cybn",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_716_img_000000182_c0.png"
+    },
+    {
+      "_id": "sxdu33573",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_717_img_000000183_c0.png"
+    },
+    {
+      "_id": "s7tlg1h5j",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_718_img_000000184_c0.png"
+    },
+    {
+      "_id": "s75do1xj9",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_719_img_000000184_c0.png"
+    },
+    {
+      "_id": "s7lmzl58h",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_720_img_000000185_c0.png"
+    },
+    {
+      "_id": "sco2voh27",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_721_img_000000186_c0.png"
+    },
+    {
+      "_id": "sdthepoeu",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_722_img_000000187_c0.png"
+    },
+    {
+      "_id": "szmhu8giz",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_723_img_000000189_c0.png"
+    },
+    {
+      "_id": "sneovy2n1",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_724_img_000000191_c0.png"
+    },
+    {
+      "_id": "s31jeg7fn",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_725_img_000000188_c0.png"
+    },
+    {
+      "_id": "sxg94extn",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_726_img_000000192_c0.png"
+    },
+    {
+      "_id": "s12bl2lc1",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_727_img_000000193_c0.png"
+    },
+    {
+      "_id": "sdx5t8cty",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_728_img_000000194_c0.png"
+    },
+    {
+      "_id": "snzdqczri",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_729_img_000000195_c0.png"
+    },
+    {
+      "_id": "s07hfblsb",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_730_img_000000195_c0.png"
+    },
+    {
+      "_id": "sl0vozvxi",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_731_img_000000196_c0.png"
+    },
+    {
+      "_id": "sbqau4s0r",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_732_img_000000200_c0.png"
+    },
+    {
+      "_id": "sdidvlsfx",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_733_img_000000200_c0.png"
+    },
+    {
+      "_id": "skhz8cb14",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_734_img_000000200_c0.png"
+    },
+    {
+      "_id": "szdp0kqo8",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_735_img_000000200_c0.png"
+    },
+    {
+      "_id": "sts93lu2u",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_736_img_000000201_c0.png"
+    },
+    {
+      "_id": "se5po191b",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_737_img_000000201_c0.png"
+    },
+    {
+      "_id": "s89asgd3e",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_738_img_000000201_c0.png"
+    },
+    {
+      "_id": "spy9bx6qg",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_739_img_000000201_c0.png"
+    },
+    {
+      "_id": "s05mc5vjc",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_740_img_000000202_c0.png"
+    },
+    {
+      "_id": "sbho5ao3v",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_741_img_000000202_c0.png"
+    },
+    {
+      "_id": "smgcpm1m9",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_742_img_000000202_c0.png"
+    },
+    {
+      "_id": "sq8ps27jd",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_743_img_000000203_c0.png"
+    },
+    {
+      "_id": "sv6id8djj",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_744_img_000000203_c0.png"
+    },
+    {
+      "_id": "su1ggv98t",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_745_img_000000204_c0.png"
+    },
+    {
+      "_id": "s336wwdq2",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_746_img_000000205_c0.png"
+    },
+    {
+      "_id": "s7oj3tfxk",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_747_img_000000205_c0.png"
+    },
+    {
+      "_id": "syqz8wavl",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_748_img_000000206_c0.png"
+    },
+    {
+      "_id": "srtws4uzb",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_749_img_000000208_c0.png"
+    },
+    {
+      "_id": "smyyl8ymk",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_750_img_000000208_c0.png"
+    },
+    {
+      "_id": "snubjw60o",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_751_img_000000208_c0.png"
+    },
+    {
+      "_id": "s2yru3jsm",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_752_img_000000208_c0.png"
+    },
+    {
+      "_id": "shbl2xnyi",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_753_img_000000209_c0.png"
+    },
+    {
+      "_id": "sz82dwbii",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_754_img_000000210_c0.png"
+    },
+    {
+      "_id": "swyc0s1i9",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_755_img_000000211_c0.png"
+    },
+    {
+      "_id": "spbjcs3y7",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_756_img_000000212_c0.png"
+    },
+    {
+      "_id": "sr7bhynjk",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_757_img_000000212_c0.png"
+    },
+    {
+      "_id": "sd6hi8m8c",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_758_img_000000212_c0.png"
+    },
+    {
+      "_id": "s0tc2cvvc",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_759_img_000000213_c0.png"
+    },
+    {
+      "_id": "stxw7st9t",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_760_img_000000214_c0.png"
+    },
+    {
+      "_id": "snlv1crga",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_761_img_000000214_c0.png"
+    },
+    {
+      "_id": "s9xo95pfg",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_762_img_000000215_c0.png"
+    },
+    {
+      "_id": "s3r9tvyvj",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_763_img_000000216_c0.png"
+    },
+    {
+      "_id": "sj7v48err",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_764_img_000000216_c0.png"
+    },
+    {
+      "_id": "s9vxjcjnv",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_765_img_000000216_c0.png"
+    },
+    {
+      "_id": "shnwemyfm",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_766_img_000000217_c0.png"
+    },
+    {
+      "_id": "strstvg44",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_767_img_000000217_c0.png"
+    },
+    {
+      "_id": "ssct0o6nw",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_768_img_000000218_c0.png"
+    },
+    {
+      "_id": "sdpklx5l5",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_769_img_000000218_c0.png"
+    },
+    {
+      "_id": "sy64kxzhy",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_770_img_000000219_c0.png"
+    },
+    {
+      "_id": "smwu7y7y4",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_771_img_000000220_c0.png"
+    },
+    {
+      "_id": "s4wp2g96j",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_772_img_000000221_c0.png"
+    },
+    {
+      "_id": "sqlsw9ckp",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_773_img_000000223_c0.png"
+    },
+    {
+      "_id": "s13vzmi9i",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_774_img_000000223_c0.png"
+    },
+    {
+      "_id": "syfkv5mcg",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_775_img_000000224_c0.png"
+    },
+    {
+      "_id": "sg0exjpb9",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_776_img_000000226_c0.png"
+    },
+    {
+      "_id": "sozofdl6y",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_777_img_000000190_c0.png"
+    },
+    {
+      "_id": "sa2ziygue",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_778_img_000000197_c0.png"
+    },
+    {
+      "_id": "s6jz6fzab",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_779_img_000000198_c0.png"
+    },
+    {
+      "_id": "sju8v8k0q",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_780_img_000000199_c0.png"
+    },
+    {
+      "_id": "sm8xgbxm4",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_781_img_000000207_c0.png"
+    },
+    {
+      "_id": "sf540o6gn",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_782_img_000000222_c0.png"
+    },
+    {
+      "_id": "slhhfqrqb",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_783_img_000000225_c0.png"
+    },
+    {
+      "_id": "s0s3ggm06",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_784_img_000000227_c0.png"
+    },
+    {
+      "_id": "sul4ez1us",
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_785_img_000000114_c0.png"
+    }
+  ],
+  "filePath": "/Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/classification.json"
+}
