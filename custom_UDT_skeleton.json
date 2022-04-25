@@ -5,6 +5,7 @@
     "keypointDefinitions": {
       "human": {
         "landmarks": {
+
           "nose": {
             "label": "Nose",
             "color": "#f00",
@@ -13,24 +14,16 @@
               0
             ]
           },
-          "leftEye": {
-            "label": "Left Eye",
+          "rightEye": {
+            "label": "right eye",
             "color": "#00f",
             "defaultPosition": [
               -0.05,
               -0.05
             ]
           },
-          "leftEar": {
-            "label": "Left Ear",
-            "color": "#0ff",
-            "defaultPosition": [
-              -0.1,
-              -0.05
-            ]
-          },
-          "rightEye": {
-            "label": "Left Eye",
+          "leftEye": {
+            "label": "left eye",
             "color": "#f0f",
             "defaultPosition": [
               0.05,
@@ -38,111 +31,111 @@
             ]
           },
           "rightEar": {
-            "label": "Left Ear",
+            "label": "right ear",
+            "color": "#0ff",
+            "defaultPosition": [
+              -0.1,
+              -0.05
+            ]
+          },
+          "leftEar": {
+            "label": "left ear",
             "color": "#00f",
             "defaultPosition": [
               0.1,
               -0.05
             ]
           },
-          "sternum": {
-            "label": "Sternum",
-            "color": "#0f0",
-            "defaultPosition": [
-              0,
-              0.1
-            ]
-          },
-          "leftShoulder": {
-            "label": "Left Shoulder",
+          "rightShoulder": {
+            "label": "right shoulder",
             "color": "#0ff",
             "defaultPosition": [
               -0.2,
               0.1
             ]
           },
-          "rightShoulder": {
-            "label": "Right Shoulder",
+          "leftShoulder": {
+            "label": "left shoulder",
             "color": "#00f",
             "defaultPosition": [
               0.2,
               0.1
             ]
           },
-          "leftElbow": {
-            "label": "Left Elbow",
+          "rightElbow": {
+            "label": "right elbow",
             "color": "#0f0",
             "defaultPosition": [
               -0.2,
               0.2
             ]
           },
-          "rightElbow": {
-            "label": "Right Elbow",
+          "leftElbow": {
+            "label": "left elbow",
             "color": "#f00",
             "defaultPosition": [
               0.2,
               0.2
             ]
           },
-          "leftHand": {
-            "label": "Left Hand",
+          "rightWrist": {
+            "label": "right wrist",
             "color": "#00f",
             "defaultPosition": [
               -0.2,
               0.3
             ]
           },
-          "rightHand": {
-            "label": "Right Hand",
+          "leftWrist": {
+            "label": "left wrist",
             "color": "#f0f",
             "defaultPosition": [
               0.2,
               0.3
             ]
           },
-          "leftThigh": {
-            "label": "Left Thigh",
+          "rightHip": {
+            "label": "right hip",
             "color": "#f00",
             "defaultPosition": [
               -0.1,
               0.35
             ]
           },
-          "rightThigh": {
-            "label": "Right Thigh",
+          "leftHip": {
+            "label": "left hip",
             "color": "#0ff",
             "defaultPosition": [
               0.1,
               0.35
             ]
           },
-          "leftKnee": {
-            "label": "Left Thigh",
+          "rightKnee": {
+            "label": "right knee",
             "color": "#ff0",
             "defaultPosition": [
               -0.15,
               0.45
             ]
           },
-          "rightKnee": {
-            "label": "Right Thigh",
+          "leftKnee": {
+            "label": "left knee",
             "color": "#0f0",
             "defaultPosition": [
               0.15,
               0.45
             ]
           },
-          "leftFoot": {
-            "label": "Left Foot",
+          "rightAnkle": {
+            "label": "right ankle",
             "color": "#00f",
             "defaultPosition": [
               -0.15,
               0.55
             ]
           },
-          "rightFoot": {
-            "label": "Right Foot",
+          "leftAnkle": {
+            "label": "left ankle",
             "color": "#f00",
             "defaultPosition": [
               0.15,
@@ -152,8 +145,12 @@
         },
         "connections": [
           [
-            "sternum",
-            "nose"
+            "nose",
+            "rightEye"
+          ],
+          [
+            "rightEye",
+            "rightEar"
           ],
           [
             "nose",
@@ -164,15 +161,15 @@
             "leftEar"
           ],
           [
-            "nose",
-            "rightEye"
+            "rightWrist",
+            "rightElbow"
           ],
           [
-            "rightEye",
-            "rightEar"
+            "rightElbow",
+            "rightShoulder"
           ],
           [
-            "sternum",
+            "rightShoulder",
             "leftShoulder"
           ],
           [
@@ -181,43 +178,35 @@
           ],
           [
             "leftElbow",
-            "leftHand"
+            "leftWrist"
           ],
           [
-            "sternum",
-            "leftThigh"
+            "rightHip",
+            "leftHip"
           ],
           [
-            "leftThigh",
-            "leftKnee"
-          ],
-          [
-            "leftKnee",
-            "leftFoot"
-          ],
-          [
-            "sternum",
-            "rightShoulder"
-          ],
-          [
-            "rightShoulder",
-            "rightElbow"
-          ],
-          [
-            "rightElbow",
-            "rightHand"
-          ],
-          [
-            "sternum",
-            "rightThigh"
-          ],
-          [
-            "rightThigh",
+            "rightAnkle",
             "rightKnee"
           ],
           [
             "rightKnee",
-            "rightFoot"
+            "rightHip"
+          ],
+          [
+            "rightHip",
+            "rightShoulder"
+          ],
+          [
+            "leftAnkle",
+            "leftKnee"
+          ],
+          [
+            "leftKnee",
+            "leftHip"
+          ],
+          [
+            "leftHip",
+            "leftShoulder"
           ]
         ]
       }
