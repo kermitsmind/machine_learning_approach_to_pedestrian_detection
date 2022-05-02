@@ -62616,99 +62616,1971 @@
     },
     {
       "_id": "sbv1t2y7r",
-      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_762_img_000000215_c0.png"
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_762_img_000000215_c0.png",
+      "annotation": [
+        {
+          "id": "9692524130821523",
+          "keypointsDefinitionId": "human",
+          "regionType": "keypoints",
+          "points": {
+            "nose": {
+              "x": 0.621538845064905,
+              "y": 0.1537242472266244
+            },
+            "rightEye": {
+              "x": 0.5972328567104115,
+              "y": 0.12836767036450078
+            },
+            "leftEye": {
+              "x": 0.5972328567104115,
+              "y": 0.12995245641838352
+            },
+            "rightEar": {
+              "x": 0.5347317437988568,
+              "y": 0.15213946117274169
+            },
+            "leftEar": {
+              "x": 0.5277871756975729,
+              "y": 0.14896988906497624
+            },
+            "rightShoulder": {
+              "x": 0.4965366192417956,
+              "y": 0.2519809825673534
+            },
+            "leftShoulder": {
+              "x": 0.4965366192417956,
+              "y": 0.2329635499207607
+            },
+            "rightElbow": {
+              "x": 0.5173703235456472,
+              "y": 0.40253565768621236
+            },
+            "leftElbow": {
+              "x": 0.39931266582382163,
+              "y": 0.3692551505546751
+            },
+            "rightWrist": {
+              "x": 0.7048736622803112,
+              "y": 0.40729001584786056
+            },
+            "leftWrist": {
+              "x": 0.2291707473423672,
+              "y": 0.5213946117274167
+            },
+            "rightHip": {
+              "x": 0.4479246425328086,
+              "y": 0.5007923930269413
+            },
+            "leftHip": {
+              "x": 0.49306433519115367,
+              "y": 0.4976228209191759
+            },
+            "rightKnee": {
+              "x": 0.6389002653181146,
+              "y": 0.6228209191759112
+            },
+            "leftKnee": {
+              "x": 0.3437561210135508,
+              "y": 0.6893819334389857
+            },
+            "rightAnkle": {
+              "x": 0.7569579230399401,
+              "y": 0.8225039619651348
+            },
+            "leftAnkle": {
+              "x": 0.18403105468402214,
+              "y": 0.8478605388272583
+            }
+          }
+        }
+      ],
+      "brush": "complete"
     },
     {
       "_id": "siqbahp3f",
-      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_763_img_000000216_c0.png"
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_763_img_000000216_c0.png",
+      "annotation": [
+        {
+          "id": "8415313665953688",
+          "keypointsDefinitionId": "human",
+          "regionType": "keypoints",
+          "points": {
+            "nose": {
+              "x": 0.6159352970107655,
+              "y": 0.1901743264659271
+            },
+            "rightEye": {
+              "x": 0.5676266462648232,
+              "y": 0.16957210776545167
+            },
+            "leftEye": {
+              "x": 0.6521667850702224,
+              "y": 0.16957210776545167
+            },
+            "rightEar": {
+              "x": 0.5313951582053664,
+              "y": 0.16164817749603805
+            },
+            "leftEar": {
+              "x": 0.7206040402936408,
+              "y": 0.1664025356576862
+            },
+            "rightShoulder": {
+              "x": 0.43477785671348157,
+              "y": 0.23137876386687797
+            },
+            "leftShoulder": {
+              "x": 0.8333242253675064,
+              "y": 0.2519809825673534
+            },
+            "rightElbow": {
+              "x": 0.2133632074612456,
+              "y": 0.329635499207607
+            },
+            "leftElbow": {
+              "x": 0.7568355283530975,
+              "y": 0.3201267828843106
+            },
+            "rightWrist": {
+              "x": 0.2254403701477312,
+              "y": 0.36608557844690964
+            },
+            "leftWrist": {
+              "x": 0.47503506566843356,
+              "y": 0.3518225039619651
+            },
+            "rightHip": {
+              "x": 0.4669836238774432,
+              "y": 0.4722662440570523
+            },
+            "leftHip": {
+              "x": 0.7286554820846312,
+              "y": 0.49445324881141045
+            },
+            "rightKnee": {
+              "x": 0.442829298504472,
+              "y": 0.6671949286846276
+            },
+            "leftKnee": {
+              "x": 0.7085268776071552,
+              "y": 0.6735340729001584
+            },
+            "rightAnkle": {
+              "x": 0.362314880594568,
+              "y": 0.8541996830427893
+            },
+            "leftAnkle": {
+              "x": 0.6239867388017559,
+              "y": 0.8415213946117274
+            }
+          }
+        }
+      ],
+      "brush": "complete"
     },
     {
       "_id": "snoybn8qe",
-      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_764_img_000000216_c0.png"
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_764_img_000000216_c0.png",
+      "annotation": [
+        {
+          "id": "7384658103596018",
+          "keypointsDefinitionId": "human",
+          "regionType": "keypoints",
+          "points": {
+            "nose": {
+              "x": 0.5854246990089175,
+              "y": 0.1664025356576862
+            },
+            "rightEye": {
+              "x": 0.6283558436029048,
+              "y": 0.1473851030110935
+            },
+            "leftEye": {
+              "x": 0.5346878917614779,
+              "y": 0.1473851030110935
+            },
+            "rightEar": {
+              "x": 0.6556756628899876,
+              "y": 0.16798732171156894
+            },
+            "leftEar": {
+              "x": 0.49565957849421677,
+              "y": 0.1600633914421553
+            },
+            "rightShoulder": {
+              "x": 0.768857771365045,
+              "y": 0.23771790808240886
+            },
+            "leftShoulder": {
+              "x": 0.4488256025735034,
+              "y": 0.2630744849445325
+            },
+            "rightElbow": {
+              "x": 0.8508172292262933,
+              "y": 0.42630744849445323
+            },
+            "leftElbow": {
+              "x": 0.48785391584076454,
+              "y": 0.4247226624405705
+            },
+            "rightWrist": {
+              "x": 0.8000804219788539,
+              "y": 0.5594294770206022
+            },
+            "leftWrist": {
+              "x": 0.3785746386924333,
+              "y": 0.5103011093502378
+            },
+            "rightHip": {
+              "x": 0.6478700002365353,
+              "y": 0.4928684627575277
+            },
+            "leftHip": {
+              "x": 0.4917567471674907,
+              "y": 0.5071315372424723
+            },
+            "rightKnee": {
+              "x": 0.6127445182960003,
+              "y": 0.6798732171156894
+            },
+            "leftKnee": {
+              "x": 0.4488256025735034,
+              "y": 0.6782884310618067
+            },
+            "rightAnkle": {
+              "x": 0.6790926508503442,
+              "y": 0.8573692551505546
+            },
+            "leftAnkle": {
+              "x": 0.2771010241975543,
+              "y": 0.8589540412044374
+            }
+          }
+        }
+      ],
+      "brush": "complete"
     },
     {
       "_id": "s4jh57nxr",
-      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_765_img_000000216_c0.png"
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_765_img_000000216_c0.png",
+      "annotation": [
+        {
+          "id": "03423368196047227",
+          "keypointsDefinitionId": "human",
+          "regionType": "keypoints",
+          "points": {
+            "nose": {
+              "x": 0.2791268340064414,
+              "y": 0.16798732171156894
+            },
+            "rightEye": {
+              "x": 0.29630386994529934,
+              "y": 0.13946117274167988
+            },
+            "leftEye": {
+              "x": 0.2920096109605848,
+              "y": 0.13946117274167988
+            },
+            "rightEar": {
+              "x": 0.4294258984714483,
+              "y": 0.15847860538827258
+            },
+            "leftEar": {
+              "x": 0.4165431215173048,
+              "y": 0.15689381933438987
+            },
+            "rightShoulder": {
+              "x": 0.6999642145084607,
+              "y": 0.2393026941362916
+            },
+            "leftShoulder": {
+              "x": 0.28342109299115587,
+              "y": 0.25673534072900156
+            },
+            "rightElbow": {
+              "x": 0.7944379121721793,
+              "y": 0.38510301109350237
+            },
+            "leftElbow": {
+              "x": 0.3220694238535862,
+              "y": 0.40887480190174325
+            },
+            "rightWrist": {
+              "x": 0.8287919840498952,
+              "y": 0.5229793977812995
+            },
+            "leftWrist": {
+              "x": 0.23618424415929656,
+              "y": 0.5309033280507132
+            },
+            "rightHip": {
+              "x": 0.738612545370891,
+              "y": 0.48335974643423135
+            },
+            "leftHip": {
+              "x": 0.48648330862430345,
+              "y": 0.5037242472266243
+            },
+            "rightKnee": {
+              "x": 0.49383978324216554,
+              "y": 0.6640253565768621
+            },
+            "leftKnee": {
+              "x": 0.5668421859823117,
+              "y": 0.6561014263074485
+            },
+            "rightAnkle": {
+              "x": 0.4036603445631614,
+              "y": 0.8367670364500792
+            },
+            "leftAnkle": {
+              "x": 0.6870814375543173,
+              "y": 0.849445324881141
+            }
+          }
+        }
+      ],
+      "brush": "complete"
     },
     {
       "_id": "sfzsw7i2a",
-      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_766_img_000000217_c0.png"
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_766_img_000000217_c0.png",
+      "annotation": [
+        {
+          "id": "3529534762780291",
+          "keypointsDefinitionId": "human",
+          "regionType": "keypoints",
+          "points": {
+            "nose": {
+              "x": 0.4592380677959125,
+              "y": 0.1664025356576862
+            },
+            "rightEye": {
+              "x": 0.42457859098112666,
+              "y": 0.15055467511885895
+            },
+            "leftEye": {
+              "x": 0.5112272830180913,
+              "y": 0.1473851030110935
+            },
+            "rightEar": {
+              "x": 0.4072488525737337,
+              "y": 0.16164817749603805
+            },
+            "leftEar": {
+              "x": 0.5935435404532077,
+              "y": 0.16323296354992076
+            },
+            "rightShoulder": {
+              "x": 0.5328894560273324,
+              "y": 0.2266244057052298
+            },
+            "leftShoulder": {
+              "x": 0.5762138020458147,
+              "y": 0.23613312202852615
+            },
+            "rightElbow": {
+              "x": 0.4202461563792784,
+              "y": 0.3518225039619651
+            },
+            "leftElbow": {
+              "x": 0.6592380677959124,
+              "y": 0.3664025356576862
+            },
+            "rightWrist": {
+              "x": 0.21662173009241156,
+              "y": 0.41996830427892234
+            },
+            "leftWrist": {
+              "x": 0.5415543252310289,
+              "y": 0.4896988906497623
+            },
+            "rightHip": {
+              "x": 0.4895651100088501,
+              "y": 0.4896988906497623
+            },
+            "leftHip": {
+              "x": 0.6758597978883241,
+              "y": 0.48177496038034867
+            },
+            "rightKnee": {
+              "x": 0.4289110255829749,
+              "y": 0.6323296354992076
+            },
+            "leftKnee": {
+              "x": 0.5025624138143948,
+              "y": 0.6434231378763867
+            },
+            "rightAnkle": {
+              "x": 0.7668409245271369,
+              "y": 0.7812995245641838
+            },
+            "leftAnkle": {
+              "x": 0.48090024080515364,
+              "y": 0.849445324881141
+            }
+          }
+        }
+      ],
+      "brush": "complete"
     },
     {
       "_id": "su1nuivzm",
-      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_767_img_000000217_c0.png"
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_767_img_000000217_c0.png",
+      "annotation": [
+        {
+          "id": "9528910296763913",
+          "keypointsDefinitionId": "human",
+          "regionType": "keypoints",
+          "points": {
+            "nose": {
+              "x": 0.4682322431926235,
+              "y": 0.15213946117274169
+            },
+            "rightEye": {
+              "x": 0.520258047991804,
+              "y": 0.13153724247226625
+            },
+            "leftEye": {
+              "x": 0.4122044534088908,
+              "y": 0.1410459587955626
+            },
+            "rightEar": {
+              "x": 0.5762858377755367,
+              "y": 0.1537242472266244
+            },
+            "leftEar": {
+              "x": 0.35217467864060575,
+              "y": 0.15530903328050713
+            },
+            "rightShoulder": {
+              "x": 0.7603771470649442,
+              "y": 0.2630744849445325
+            },
+            "leftShoulder": {
+              "x": 0.23611711408858793,
+              "y": 0.277337559429477
+            },
+            "rightElbow": {
+              "x": 0.8404168467559909,
+              "y": 0.39619651347068147
+            },
+            "leftElbow": {
+              "x": 0.23611711408858793,
+              "y": 0.4120443740095087
+            },
+            "rightWrist": {
+              "x": 0.8484208167250956,
+              "y": 0.5166402535657686
+            },
+            "leftWrist": {
+              "x": 0.20410123421216922,
+              "y": 0.5309033280507132
+            },
+            "rightHip": {
+              "x": 0.7123533272503162,
+              "y": 0.5229793977812995
+            },
+            "leftHip": {
+              "x": 0.37618658854791975,
+              "y": 0.5293185419968305
+            },
+            "rightKnee": {
+              "x": 0.6123037026365077,
+              "y": 0.6830427892234548
+            },
+            "leftKnee": {
+              "x": 0.44822231826986186,
+              "y": 0.6846275752773375
+            },
+            "rightAnkle": {
+              "x": 0.7123533272503162,
+              "y": 0.866877971473851
+            },
+            "leftAnkle": {
+              "x": 0.47223422817717586,
+              "y": 0.8573692551505546
+            }
+          }
+        }
+      ],
+      "brush": "complete"
     },
     {
       "_id": "snwtj7rso",
-      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_768_img_000000218_c0.png"
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_768_img_000000218_c0.png",
+      "annotation": [
+        {
+          "id": "7692040001619449",
+          "keypointsDefinitionId": "human",
+          "regionType": "keypoints",
+          "points": {
+            "nose": {
+              "x": 0.4073620515775825,
+              "y": 0.14580031695721077
+            },
+            "rightEye": {
+              "x": 0.46710848580896125,
+              "y": 0.12519809825673534
+            },
+            "leftEye": {
+              "x": 0.325889641262066,
+              "y": 0.12995245641838352
+            },
+            "rightEar": {
+              "x": 0.5485808961244778,
+              "y": 0.1410459587955626
+            },
+            "leftEar": {
+              "x": 0.28786918311482496,
+              "y": 0.15213946117274169
+            },
+            "rightShoulder": {
+              "x": 0.7821351390289584,
+              "y": 0.23137876386687797
+            },
+            "leftShoulder": {
+              "x": 0.1466503385679297,
+              "y": 0.2551505546751189
+            },
+            "rightElbow": {
+              "x": 0.8636075493444749,
+              "y": 0.3549920760697306
+            },
+            "leftElbow": {
+              "x": 0.20096527877827403,
+              "y": 0.40887480190174325
+            },
+            "rightWrist": {
+              "x": 0.5377179080824089,
+              "y": 0.43898573692551507
+            },
+            "leftWrist": {
+              "x": 0.2118282668203429,
+              "y": 0.4706814580031696
+            },
+            "rightHip": {
+              "x": 0.7821351390289584,
+              "y": 0.5134706814580031
+            },
+            "leftHip": {
+              "x": 0.3313211352831004,
+              "y": 0.561014263074485
+            },
+            "rightKnee": {
+              "x": 0.7060942227344763,
+              "y": 0.6497622820919176
+            },
+            "leftKnee": {
+              "x": 0.45081400374585795,
+              "y": 0.6751188589540412
+            },
+            "rightAnkle": {
+              "x": 0.6735052586082697,
+              "y": 0.8288431061806656
+            },
+            "leftAnkle": {
+              "x": 0.5431494021034433,
+              "y": 0.866877971473851
+            }
+          }
+        }
+      ],
+      "brush": "complete"
     },
     {
       "_id": "sroqd2xhp",
-      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_769_img_000000218_c0.png"
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_769_img_000000218_c0.png",
+      "annotation": [
+        {
+          "id": "299882321321169",
+          "keypointsDefinitionId": "human",
+          "regionType": "keypoints",
+          "points": {
+            "nose": {
+              "x": 0.4377666707302207,
+              "y": 0.1664025356576862
+            },
+            "rightEye": {
+              "x": 0.3955260270632696,
+              "y": 0.15213946117274169
+            },
+            "leftEye": {
+              "x": 0.4838473729123492,
+              "y": 0.14896988906497624
+            },
+            "rightEar": {
+              "x": 0.3340850908204316,
+              "y": 0.1600633914421553
+            },
+            "leftEar": {
+              "x": 0.5376081921248325,
+              "y": 0.15847860538827258
+            },
+            "rightShoulder": {
+              "x": 0.23776667073022068,
+              "y": 0.26640253565768623
+            },
+            "leftShoulder": {
+              "x": 0.6377666707302208,
+              "y": 0.26640253565768623
+            },
+            "rightElbow": {
+              "x": 0.18816286724369136,
+              "y": 0.4041204437400951
+            },
+            "leftElbow": {
+              "x": 0.7372912349140559,
+              "y": 0.375594294770206
+            },
+            "rightWrist": {
+              "x": 0.18432280872851398,
+              "y": 0.5198098256735341
+            },
+            "leftWrist": {
+              "x": 0.8102523467024261,
+              "y": 0.4896988906497623
+            },
+            "rightHip": {
+              "x": 0.34176520785078635,
+              "y": 0.5198098256735341
+            },
+            "leftHip": {
+              "x": 0.5836888943069609,
+              "y": 0.5166402535657686
+            },
+            "rightKnee": {
+              "x": 0.4492868462757528,
+              "y": 0.6671949286846276
+            },
+            "leftKnee": {
+              "x": 0.5760087772766062,
+              "y": 0.6545166402535658
+            },
+            "rightAnkle": {
+              "x": 0.5184078995489456,
+              "y": 0.8288431061806656
+            },
+            "leftAnkle": {
+              "x": 0.5683286602462515,
+              "y": 0.8288431061806656
+            }
+          }
+        }
+      ],
+      "brush": "complete"
     },
     {
       "_id": "soqgywf3s",
-      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_770_img_000000219_c0.png"
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_770_img_000000219_c0.png",
+      "annotation": [
+        {
+          "id": "334314513872769",
+          "keypointsDefinitionId": "human",
+          "regionType": "keypoints",
+          "points": {
+            "nose": {
+              "x": 0.6173873669911705,
+              "y": 0.16798732171156894
+            },
+            "rightEye": {
+              "x": 0.5879879685630195,
+              "y": 0.15055467511885895
+            },
+            "leftEye": {
+              "x": 0.6500533652446716,
+              "y": 0.14896988906497624
+            },
+            "rightEar": {
+              "x": 0.4965231734532165,
+              "y": 0.16957210776545167
+            },
+            "leftEar": {
+              "x": 0.5585885701348685,
+              "y": 0.16164817749603805
+            },
+            "rightShoulder": {
+              "x": 0.41812477764481387,
+              "y": 0.2551505546751189
+            },
+            "leftShoulder": {
+              "x": 0.5912545683883697,
+              "y": 0.22979397781299524
+            },
+            "rightElbow": {
+              "x": 0.3462595814871115,
+              "y": 0.3787638668779715
+            },
+            "leftElbow": {
+              "x": 0.5324557715320677,
+              "y": 0.358161648177496
+            },
+            "rightWrist": {
+              "x": 0.5553219703095185,
+              "y": 0.38351822503961963
+            },
+            "leftWrist": {
+              "x": 0.6729195640221224,
+              "y": 0.410459587955626
+            },
+            "rightHip": {
+              "x": 0.3952585788673631,
+              "y": 0.5055467511885895
+            },
+            "leftHip": {
+              "x": 0.5291891717067175,
+              "y": 0.5150554675118859
+            },
+            "rightKnee": {
+              "x": 0.3658591804392121,
+              "y": 0.6624405705229794
+            },
+            "leftKnee": {
+              "x": 0.6075875675151202,
+              "y": 0.6846275752773375
+            },
+            "rightAnkle": {
+              "x": 0.1959959895210065,
+              "y": 0.838351822503962
+            },
+            "leftAnkle": {
+              "x": 0.7088521621009736,
+              "y": 0.8557844690966719
+            }
+          }
+        }
+      ],
+      "brush": "complete"
     },
     {
       "_id": "sejj1ibot",
-      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_771_img_000000220_c0.png"
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_771_img_000000220_c0.png",
+      "annotation": [
+        {
+          "id": "3672951324320717",
+          "keypointsDefinitionId": "human",
+          "regionType": "keypoints",
+          "points": {
+            "nose": {
+              "x": 0.698370099598598,
+              "y": 0.17274167987321712
+            },
+            "rightEye": {
+              "x": 0.6759864425601814,
+              "y": 0.14421553090332806
+            },
+            "leftEye": {
+              "x": 0.671509711152498,
+              "y": 0.14580031695721077
+            },
+            "rightEar": {
+              "x": 0.5282543061066318,
+              "y": 0.15055467511885895
+            },
+            "leftEar": {
+              "x": 0.5282543061066318,
+              "y": 0.14896988906497624
+            },
+            "rightShoulder": {
+              "x": 0.4297662151375988,
+              "y": 0.21236133122028525
+            },
+            "leftShoulder": {
+              "x": 0.5506379631450484,
+              "y": 0.20443740095087162
+            },
+            "rightElbow": {
+              "x": 0.40738255809918217,
+              "y": 0.34548335974643424
+            },
+            "leftElbow": {
+              "x": 0.42081275232223214,
+              "y": 0.34548335974643424
+            },
+            "rightWrist": {
+              "x": 0.7341839508600646,
+              "y": 0.38193343898573695
+            },
+            "leftWrist": {
+              "x": 0.5327310375143152,
+              "y": 0.4659270998415214
+            },
+            "rightHip": {
+              "x": 0.42081275232223214,
+              "y": 0.4786053882725832
+            },
+            "leftHip": {
+              "x": 0.25965042164563257,
+              "y": 0.4865293185419968
+            },
+            "rightKnee": {
+              "x": 0.6356958598910315,
+              "y": 0.6497622820919176
+            },
+            "leftKnee": {
+              "x": 0.37604543824539893,
+              "y": 0.6481774960380349
+            },
+            "rightAnkle": {
+              "x": 0.3268013927608824,
+              "y": 0.8050713153724247
+            },
+            "leftAnkle": {
+              "x": 0.25965042164563257,
+              "y": 0.8446909667194928
+            }
+          }
+        }
+      ],
+      "brush": "complete"
     },
     {
       "_id": "sz64ru8yk",
-      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_772_img_000000221_c0.png"
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_772_img_000000221_c0.png",
+      "annotation": [
+        {
+          "id": "006333366707964805",
+          "keypointsDefinitionId": "human",
+          "regionType": "keypoints",
+          "points": {
+            "nose": {
+              "x": 0.6558701332076927,
+              "y": 0.15847860538827258
+            },
+            "rightEye": {
+              "x": 0.6268813980382919,
+              "y": 0.12836767036450078
+            },
+            "leftEye": {
+              "x": 0.630504989934467,
+              "y": 0.13153724247226625
+            },
+            "rightEar": {
+              "x": 0.4928084978798133,
+              "y": 0.15689381933438987
+            },
+            "leftEar": {
+              "x": 0.4964320897759884,
+              "y": 0.1537242472266244
+            },
+            "rightShoulder": {
+              "x": 0.5362916006339145,
+              "y": 0.23771790808240886
+            },
+            "leftShoulder": {
+              "x": 0.3007581273825331,
+              "y": 0.23613312202852615
+            },
+            "rightElbow": {
+              "x": 0.6160106223497667,
+              "y": 0.35657686212361334
+            },
+            "leftElbow": {
+              "x": 0.24278065704373156,
+              "y": 0.3438985736925515
+            },
+            "rightWrist": {
+              "x": 0.7645778900929456,
+              "y": 0.39144215530903326
+            },
+            "leftWrist": {
+              "x": 0.2935109435901829,
+              "y": 0.46275752773375595
+            },
+            "rightHip": {
+              "x": 0.4855613140874631,
+              "y": 0.4754358161648177
+            },
+            "leftHip": {
+              "x": 0.3188760868634086,
+              "y": 0.4849445324881141
+            },
+            "rightKnee": {
+              "x": 0.5435387844262647,
+              "y": 0.6545166402535658
+            },
+            "leftKnee": {
+              "x": 0.44207821133336195,
+              "y": 0.6259904912836767
+            },
+            "rightAnkle": {
+              "x": 0.4239602518524864,
+              "y": 0.849445324881141
+            },
+            "leftAnkle": {
+              "x": 0.26089861652460705,
+              "y": 0.786053882725832
+            }
+          }
+        }
+      ],
+      "brush": "complete"
     },
     {
       "_id": "swjf86rzf",
-      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_773_img_000000223_c0.png"
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_773_img_000000223_c0.png",
+      "annotation": [
+        {
+          "id": "8741513705462991",
+          "keypointsDefinitionId": "human",
+          "regionType": "keypoints",
+          "points": {
+            "nose": {
+              "x": 0.36093336604579296,
+              "y": 0.15530903328050713
+            },
+            "rightEye": {
+              "x": 0.3676173172688632,
+              "y": 0.12836767036450078
+            },
+            "leftEye": {
+              "x": 0.3676173172688632,
+              "y": 0.12995245641838352
+            },
+            "rightEar": {
+              "x": 0.42443090266496025,
+              "y": 0.17274167987321712
+            },
+            "leftEar": {
+              "x": 0.42108892705342515,
+              "y": 0.16957210776545167
+            },
+            "rightShoulder": {
+              "x": 0.611581536910927,
+              "y": 0.23454833597464342
+            },
+            "leftShoulder": {
+              "x": 0.38766917093807396,
+              "y": 0.23454833597464342
+            },
+            "rightElbow": {
+              "x": 0.7084988296454455,
+              "y": 0.35657686212361334
+            },
+            "leftElbow": {
+              "x": 0.3809852197150037,
+              "y": 0.3803486529318542
+            },
+            "rightWrist": {
+              "x": 0.7719963662646128,
+              "y": 0.4659270998415214
+            },
+            "leftWrist": {
+              "x": 0.22725434158438818,
+              "y": 0.3676703645007924
+            },
+            "rightHip": {
+              "x": 0.5213481953994787,
+              "y": 0.4849445324881141
+            },
+            "leftHip": {
+              "x": 0.41774695144189,
+              "y": 0.5039619651347068
+            },
+            "rightKnee": {
+              "x": 0.334197561153512,
+              "y": 0.652931854199683
+            },
+            "leftKnee": {
+              "x": 0.4946123905071978,
+              "y": 0.6148969889064976
+            },
+            "rightAnkle": {
+              "x": 0.23393829280745843,
+              "y": 0.8335974643423137
+            },
+            "leftAnkle": {
+              "x": 0.7853642687107533,
+              "y": 0.8193343898573693
+            }
+          }
+        }
+      ],
+      "brush": "complete"
     },
     {
       "_id": "sapudjdmf",
-      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_774_img_000000223_c0.png"
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_774_img_000000223_c0.png",
+      "annotation": [
+        {
+          "id": "34877603261697976",
+          "keypointsDefinitionId": "human",
+          "regionType": "keypoints",
+          "points": {
+            "nose": {
+              "x": 0.26605442453302997,
+              "y": 0.16957210776545167
+            },
+            "rightEye": {
+              "x": 0.2573313286467011,
+              "y": 0.14421553090332806
+            },
+            "leftEye": {
+              "x": 0.2616928765898655,
+              "y": 0.14580031695721077
+            },
+            "rightEar": {
+              "x": 0.4230701504869493,
+              "y": 0.13629160063391443
+            },
+            "leftEar": {
+              "x": 0.3576469313394829,
+              "y": 0.1410459587955626
+            },
+            "rightShoulder": {
+              "x": 0.7152938626789658,
+              "y": 0.2218700475435816
+            },
+            "leftShoulder": {
+              "x": 0.20935430127189242,
+              "y": 0.24405705229793978
+            },
+            "rightElbow": {
+              "x": 0.881032684519214,
+              "y": 0.35340729001584786
+            },
+            "leftElbow": {
+              "x": 0.1875465615560703,
+              "y": 0.4009508716323296
+            },
+            "rightWrist": {
+              "x": 0.6193398079293484,
+              "y": 0.410459587955626
+            },
+            "leftWrist": {
+              "x": 0.29658526013518094,
+              "y": 0.4896988906497623
+            },
+            "rightHip": {
+              "x": 0.7152938626789658,
+              "y": 0.46275752773375595
+            },
+            "leftHip": {
+              "x": 0.3532853833963185,
+              "y": 0.49920760697305866
+            },
+            "rightKnee": {
+              "x": 0.5888089723271974,
+              "y": 0.6545166402535658
+            },
+            "leftKnee": {
+              "x": 0.34892383545315403,
+              "y": 0.6291600633914421
+            },
+            "rightAnkle": {
+              "x": 0.7807170818264322,
+              "y": 0.7971473851030111
+            },
+            "leftAnkle": {
+              "x": 0.379454671055305,
+              "y": 0.8573692551505546
+            }
+          }
+        }
+      ],
+      "brush": "complete"
     },
     {
       "_id": "sgyn29fnt",
-      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_775_img_000000224_c0.png"
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_775_img_000000224_c0.png",
+      "annotation": [
+        {
+          "id": "9272930173169669",
+          "keypointsDefinitionId": "human",
+          "regionType": "keypoints",
+          "points": {
+            "nose": {
+              "x": 0.4357610418245711,
+              "y": 0.1600633914421553
+            },
+            "rightEye": {
+              "x": 0.461145180183284,
+              "y": 0.1347068145800317
+            },
+            "leftEye": {
+              "x": 0.37653138565424105,
+              "y": 0.1410459587955626
+            },
+            "rightEar": {
+              "x": 0.5372975952594226,
+              "y": 0.14896988906497624
+            },
+            "leftEar": {
+              "x": 0.3384551781161717,
+              "y": 0.15847860538827258
+            },
+            "rightShoulder": {
+              "x": 0.7107558740439606,
+              "y": 0.25039619651347067
+            },
+            "leftShoulder": {
+              "x": 0.2369186246813202,
+              "y": 0.26148969889064977
+            },
+            "rightElbow": {
+              "x": 0.8292151863846207,
+              "y": 0.3803486529318542
+            },
+            "leftElbow": {
+              "x": 0.1819196582374423,
+              "y": 0.393026941362916
+            },
+            "rightWrist": {
+              "x": 0.7234479432233171,
+              "y": 0.4976228209191759
+            },
+            "leftWrist": {
+              "x": 0.36807000620133673,
+              "y": 0.4659270998415214
+            },
+            "rightHip": {
+              "x": 0.6472955281471784,
+              "y": 0.5055467511885895
+            },
+            "leftHip": {
+              "x": 0.346916557569076,
+              "y": 0.5150554675118859
+            },
+            "rightKnee": {
+              "x": 0.5880658719768483,
+              "y": 0.6450079239302694
+            },
+            "leftKnee": {
+              "x": 0.37653138565424105,
+              "y": 0.659270998415214
+            },
+            "rightAnkle": {
+              "x": 0.5584510438916833,
+              "y": 0.8335974643423137
+            },
+            "leftAnkle": {
+              "x": 0.4738372493626404,
+              "y": 0.8478605388272583
+            }
+          }
+        }
+      ],
+      "brush": "complete"
     },
     {
       "_id": "smr6vh2yc",
-      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_776_img_000000226_c0.png"
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_776_img_000000226_c0.png",
+      "annotation": [
+        {
+          "id": "7405948388555617",
+          "keypointsDefinitionId": "human",
+          "regionType": "keypoints",
+          "points": {
+            "nose": {
+              "x": 0.3614302694136292,
+              "y": 0.1600633914421553
+            },
+            "rightEye": {
+              "x": 0.3437995245641839,
+              "y": 0.1347068145800317
+            },
+            "leftEye": {
+              "x": 0.3393918383518225,
+              "y": 0.13629160063391443
+            },
+            "rightEar": {
+              "x": 0.46280705229793984,
+              "y": 0.14896988906497624
+            },
+            "leftEar": {
+              "x": 0.45399167987321715,
+              "y": 0.15055467511885895
+            },
+            "rightShoulder": {
+              "x": 0.7184528526148971,
+              "y": 0.24247226624405704
+            },
+            "leftShoulder": {
+              "x": 0.23801505546751192,
+              "y": 0.25990491283676703
+            },
+            "rightElbow": {
+              "x": 0.5509607765451665,
+              "y": 0.29952456418383516
+            },
+            "leftElbow": {
+              "x": 0.14545364500792393,
+              "y": 0.30269413629160064
+            },
+            "rightWrist": {
+              "x": 0.2776842313787639,
+              "y": 0.3074484944532488
+            },
+            "leftWrist": {
+              "x": 0.5156992868462758,
+              "y": 0.3090332805071315
+            },
+            "rightHip": {
+              "x": 0.8727218700475436,
+              "y": 0.40729001584786056
+            },
+            "leftHip": {
+              "x": 0.6611529318541998,
+              "y": 0.4152139461172742
+            },
+            "rightKnee": {
+              "x": 0.824237321711569,
+              "y": 0.6228209191759112
+            },
+            "leftKnee": {
+              "x": 0.5685915213946118,
+              "y": 0.6386687797147385
+            },
+            "rightAnkle": {
+              "x": 0.877129556259905,
+              "y": 0.838351822503962
+            },
+            "leftAnkle": {
+              "x": 0.771345087163233,
+              "y": 0.8637083993660856
+            }
+          }
+        }
+      ],
+      "brush": "complete"
     },
     {
       "_id": "s20n23eod",
-      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_777_img_000000190_c0.png"
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_777_img_000000190_c0.png",
+      "annotation": [
+        {
+          "id": "9719593698425206",
+          "keypointsDefinitionId": "human",
+          "regionType": "keypoints",
+          "points": {
+            "nose": {
+              "x": 0.15708708592632678,
+              "y": 0.18066561014263074
+            },
+            "rightEye": {
+              "x": 0.17672297166711762,
+              "y": 0.15055467511885895
+            },
+            "leftEye": {
+              "x": 0.1816319431023153,
+              "y": 0.15213946117274169
+            },
+            "rightEar": {
+              "x": 0.3338100575934444,
+              "y": 0.1901743264659271
+            },
+            "leftEar": {
+              "x": 0.3338100575934444,
+              "y": 0.18858954041204437
+            },
+            "rightShoulder": {
+              "x": 0.4516253720381895,
+              "y": 0.25356576862123614
+            },
+            "leftShoulder": {
+              "x": 0.35344594333423524,
+              "y": 0.294770206022187
+            },
+            "rightElbow": {
+              "x": 0.5988945150941208,
+              "y": 0.38351822503961963
+            },
+            "leftElbow": {
+              "x": 0.4221715434270032,
+              "y": 0.4405705229793978
+            },
+            "rightWrist": {
+              "x": 0.4712612577789803,
+              "y": 0.5007923930269413
+            },
+            "leftWrist": {
+              "x": 0.3387190290286421,
+              "y": 0.5182250396196514
+            },
+            "rightHip": {
+              "x": 0.544895829306946,
+              "y": 0.5023771790808241
+            },
+            "leftHip": {
+              "x": 0.44362800046383977,
+              "y": 0.5132329635499208
+            },
+            "rightKnee": {
+              "x": 0.5645317150477368,
+              "y": 0.6671949286846276
+            },
+            "leftKnee": {
+              "x": 0.3681728576398284,
+              "y": 0.6624405705229794
+            },
+            "rightAnkle": {
+              "x": 0.613621429399714,
+              "y": 0.8019017432646592
+            },
+            "leftAnkle": {
+              "x": 0.43689845773259633,
+              "y": 0.8019017432646592
+            }
+          }
+        }
+      ],
+      "brush": "complete"
     },
     {
       "_id": "sk8kcuxq6",
-      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_778_img_000000197_c0.png"
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_778_img_000000197_c0.png",
+      "annotation": [
+        {
+          "id": "39365265324316656",
+          "keypointsDefinitionId": "human",
+          "regionType": "keypoints",
+          "points": {
+            "nose": {
+              "x": 0.4579591477372777,
+              "y": 0.1838351822503962
+            },
+            "rightEye": {
+              "x": 0.40460468392322596,
+              "y": 0.1648177496038035
+            },
+            "leftEye": {
+              "x": 0.49352879027997887,
+              "y": 0.16164817749603805
+            },
+            "rightEar": {
+              "x": 0.34235780947349886,
+              "y": 0.18541996830427893
+            },
+            "leftEar": {
+              "x": 0.4134970945589012,
+              "y": 0.18541996830427893
+            },
+            "rightShoulder": {
+              "x": 0.24898749779890827,
+              "y": 0.29952456418383516
+            },
+            "leftShoulder": {
+              "x": 0.5335446381405177,
+              "y": 0.2757527733755943
+            },
+            "rightElbow": {
+              "x": 0.2312026765275577,
+              "y": 0.39619651347068147
+            },
+            "leftElbow": {
+              "x": 0.6491459764042966,
+              "y": 0.39461172741679873
+            },
+            "rightWrist": {
+              "x": 0.5246522275048424,
+              "y": 0.3438985736925515
+            },
+            "leftWrist": {
+              "x": 0.5113136115513295,
+              "y": 0.49128367670364503
+            },
+            "rightHip": {
+              "x": 0.3245729882021483,
+              "y": 0.5213946117274167
+            },
+            "leftHip": {
+              "x": 0.5691142806832189,
+              "y": 0.5071315372424723
+            },
+            "rightKnee": {
+              "x": 0.35125022010917417,
+              "y": 0.6767036450079239
+            },
+            "leftKnee": {
+              "x": 0.7425162880788871,
+              "y": 0.6545166402535658
+            },
+            "rightAnkle": {
+              "x": 0.2534337031167459,
+              "y": 0.866877971473851
+            },
+            "leftAnkle": {
+              "x": 0.7291776721253742,
+              "y": 0.8415213946117274
+            }
+          }
+        }
+      ],
+      "brush": "complete"
     },
     {
       "_id": "sfnfyanvr",
-      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_779_img_000000198_c0.png"
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_779_img_000000198_c0.png",
+      "annotation": [
+        {
+          "id": "34115630729193747",
+          "keypointsDefinitionId": "human",
+          "regionType": "keypoints",
+          "points": {
+            "nose": {
+              "x": 0.2908548522420062,
+              "y": 0.1774960380348653
+            },
+            "rightEye": {
+              "x": 0.25953202200055936,
+              "y": 0.16164817749603805
+            },
+            "leftEye": {
+              "x": 0.27295609210403654,
+              "y": 0.16164817749603805
+            },
+            "rightEar": {
+              "x": 0.39377272303533145,
+              "y": 0.1648177496038035
+            },
+            "leftEar": {
+              "x": 0.3982474130698238,
+              "y": 0.16164817749603805
+            },
+            "rightShoulder": {
+              "x": 0.7025263354153072,
+              "y": 0.22979397781299524
+            },
+            "leftShoulder": {
+              "x": 0.26848140206954413,
+              "y": 0.26465927099841524
+            },
+            "rightElbow": {
+              "x": 0.7875454460706629,
+              "y": 0.3438985736925515
+            },
+            "leftElbow": {
+              "x": 0.20583574158665052,
+              "y": 0.36608557844690964
+            },
+            "rightWrist": {
+              "x": 0.5638109443460427,
+              "y": 0.45166402535657685
+            },
+            "leftWrist": {
+              "x": 0.2103104316211429,
+              "y": 0.4706814580031696
+            },
+            "rightHip": {
+              "x": 0.666728815139368,
+              "y": 0.5007923930269413
+            },
+            "leftHip": {
+              "x": 0.4027221031043162,
+              "y": 0.5055467511885895
+            },
+            "rightKnee": {
+              "x": 0.6443553649669059,
+              "y": 0.6909667194928685
+            },
+            "leftKnee": {
+              "x": 0.27743078213852895,
+              "y": 0.6656101426307448
+            },
+            "rightAnkle": {
+              "x": 0.6756781952083528,
+              "y": 0.838351822503962
+            },
+            "leftAnkle": {
+              "x": 0.5190640440011187,
+              "y": 0.8288431061806656
+            }
+          }
+        }
+      ],
+      "brush": "complete"
     },
     {
       "_id": "sml232y4a",
-      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_780_img_000000199_c0.png"
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_780_img_000000199_c0.png",
+      "annotation": [
+        {
+          "id": "5738926712184387",
+          "keypointsDefinitionId": "human",
+          "regionType": "keypoints",
+          "points": {
+            "nose": {
+              "x": 0.6292457275024629,
+              "y": 0.179080824088748
+            },
+            "rightEye": {
+              "x": 0.6434659699318971,
+              "y": 0.15847860538827258
+            },
+            "leftEye": {
+              "x": 0.6470210305392556,
+              "y": 0.15847860538827258
+            },
+            "rightEar": {
+              "x": 0.5439242729258578,
+              "y": 0.15847860538827258
+            },
+            "leftEar": {
+              "x": 0.5474793335332163,
+              "y": 0.15689381933438987
+            },
+            "rightShoulder": {
+              "x": 0.337730757699062,
+              "y": 0.23771790808240886
+            },
+            "leftShoulder": {
+              "x": 0.4692680001713283,
+              "y": 0.2091917591125198
+            },
+            "rightElbow": {
+              "x": 0.408831969846233,
+              "y": 0.34072900158478603
+            },
+            "leftElbow": {
+              "x": 0.4159420910609501,
+              "y": 0.36608557844690964
+            },
+            "rightWrist": {
+              "x": 0.7216773032937852,
+              "y": 0.29635499207606975
+            },
+            "leftWrist": {
+              "x": 0.5439242729258578,
+              "y": 0.44532488114104596
+            },
+            "rightHip": {
+              "x": 0.37683642438000603,
+              "y": 0.4896988906497623
+            },
+            "leftHip": {
+              "x": 0.44438257591981845,
+              "y": 0.4754358161648177
+            },
+            "rightKnee": {
+              "x": 0.3875016062020817,
+              "y": 0.6671949286846276
+            },
+            "leftKnee": {
+              "x": 0.526148969889065,
+              "y": 0.6656101426307448
+            },
+            "rightAnkle": {
+              "x": 0.2168586970488714,
+              "y": 0.8716323296354992
+            },
+            "leftAnkle": {
+              "x": 0.7039020002569925,
+              "y": 0.8557844690966719
+            }
+          }
+        }
+      ],
+      "brush": "complete"
     },
     {
       "_id": "scosiuscq",
-      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_781_img_000000207_c0.png"
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_781_img_000000207_c0.png",
+      "annotation": [
+        {
+          "id": "10746222277367012",
+          "keypointsDefinitionId": "human",
+          "regionType": "keypoints",
+          "points": {
+            "nose": {
+              "x": 0.8038387039971827,
+              "y": 0.1949286846275753
+            },
+            "rightEye": {
+              "x": 0.8038387039971827,
+              "y": 0.16957210776545167
+            },
+            "leftEye": {
+              "x": 0.7989669542759876,
+              "y": 0.17115689381933438
+            },
+            "rightEar": {
+              "x": 0.6576862123613313,
+              "y": 0.1774960380348653
+            },
+            "leftEar": {
+              "x": 0.6625579620825264,
+              "y": 0.179080824088748
+            },
+            "rightShoulder": {
+              "x": 0.44332922462874924,
+              "y": 0.2820919175911252
+            },
+            "leftShoulder": {
+              "x": 0.5943534659857956,
+              "y": 0.26148969889064977
+            },
+            "rightElbow": {
+              "x": 0.38486822797440867,
+              "y": 0.393026941362916
+            },
+            "leftElbow": {
+              "x": 0.5505077184950402,
+              "y": 0.393026941362916
+            },
+            "rightWrist": {
+              "x": 0.4579444737923344,
+              "y": 0.4896988906497623
+            },
+            "leftWrist": {
+              "x": 0.7258907084580619,
+              "y": 0.5103011093502378
+            },
+            "rightHip": {
+              "x": 0.516405470446675,
+              "y": 0.5277337559429477
+            },
+            "leftHip": {
+              "x": 0.6430709631977461,
+              "y": 0.5245641838351822
+            },
+            "rightKnee": {
+              "x": 0.6235839643129659,
+              "y": 0.6846275752773375
+            },
+            "leftKnee": {
+              "x": 0.5699947173798204,
+              "y": 0.6846275752773375
+            },
+            "rightAnkle": {
+              "x": 0.4676879732347245,
+              "y": 0.7876386687797148
+            },
+            "leftAnkle": {
+              "x": 0.5456359687738452,
+              "y": 0.8446909667194928
+            }
+          }
+        }
+      ],
+      "brush": "complete"
     },
     {
       "_id": "sstdlck3c",
-      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_782_img_000000222_c0.png"
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_782_img_000000222_c0.png",
+      "annotation": [
+        {
+          "id": "5679651797656493",
+          "keypointsDefinitionId": "human",
+          "regionType": "keypoints",
+          "points": {
+            "nose": {
+              "x": 0.252013546664351,
+              "y": 0.18858954041204437
+            },
+            "rightEye": {
+              "x": 0.26266200638256304,
+              "y": 0.1664025356576862
+            },
+            "leftEye": {
+              "x": 0.26266200638256304,
+              "y": 0.16798732171156894
+            },
+            "rightEar": {
+              "x": 0.3833445498556325,
+              "y": 0.16798732171156894
+            },
+            "leftEar": {
+              "x": 0.38689403642836984,
+              "y": 0.16798732171156894
+            },
+            "rightShoulder": {
+              "x": 0.504027093328702,
+              "y": 0.23454833597464342
+            },
+            "leftShoulder": {
+              "x": 0.36914660356468315,
+              "y": 0.26465927099841524
+            },
+            "rightElbow": {
+              "x": 0.5714673382107114,
+              "y": 0.3613312202852615
+            },
+            "leftElbow": {
+              "x": 0.3904435230011072,
+              "y": 0.40570522979397783
+            },
+            "rightWrist": {
+              "x": 0.504027093328702,
+              "y": 0.44532488114104596
+            },
+            "leftWrist": {
+              "x": 0.3159043049736231,
+              "y": 0.5198098256735341
+            },
+            "rightHip": {
+              "x": 0.5466209322015501,
+              "y": 0.5007923930269413
+            },
+            "leftHip": {
+              "x": 0.4117404424375312,
+              "y": 0.5213946117274167
+            },
+            "rightKnee": {
+              "x": 0.6531055293836702,
+              "y": 0.6925515055467512
+            },
+            "leftKnee": {
+              "x": 0.25556303323708834,
+              "y": 0.6798732171156894
+            },
+            "rightAnkle": {
+              "x": 0.8412283177387492,
+              "y": 0.8779714738510301
+            },
+            "leftAnkle": {
+              "x": 0.25556303323708834,
+              "y": 0.8684627575277337
+            }
+          }
+        }
+      ],
+      "brush": "complete"
     },
     {
       "_id": "s4jpcentd",
-      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_783_img_000000225_c0.png"
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_783_img_000000225_c0.png",
+      "annotation": [
+        {
+          "id": "3437381336413692",
+          "keypointsDefinitionId": "human",
+          "regionType": "keypoints",
+          "points": {
+            "nose": {
+              "x": 0.5553276778223175,
+              "y": 0.15689381933438987
+            },
+            "rightEye": {
+              "x": 0.6070662813461359,
+              "y": 0.1410459587955626
+            },
+            "leftEye": {
+              "x": 0.5001398340635779,
+              "y": 0.14580031695721077
+            },
+            "rightEar": {
+              "x": 0.6484571641651907,
+              "y": 0.15689381933438987
+            },
+            "leftEar": {
+              "x": 0.4621981914794444,
+              "y": 0.15847860538827258
+            },
+            "rightShoulder": {
+              "x": 0.7622820919175911,
+              "y": 0.21711568938193343
+            },
+            "leftShoulder": {
+              "x": 0.3587209844318076,
+              "y": 0.2202852614896989
+            },
+            "rightElbow": {
+              "x": 0.8692085392001492,
+              "y": 0.31061806656101426
+            },
+            "leftElbow": {
+              "x": 0.17591125198098256,
+              "y": 0.3359746434231379
+            },
+            "rightWrist": {
+              "x": 0.8588608184953855,
+              "y": 0.4215530903328051
+            },
+            "leftWrist": {
+              "x": 0.15521581057145523,
+              "y": 0.4183835182250396
+            },
+            "rightHip": {
+              "x": 0.6036170411112147,
+              "y": 0.4706814580031696
+            },
+            "leftHip": {
+              "x": 0.36561946490165004,
+              "y": 0.46275752773375595
+            },
+            "rightKnee": {
+              "x": 0.5691246387620025,
+              "y": 0.6735340729001584
+            },
+            "leftKnee": {
+              "x": 0.28283769926354063,
+              "y": 0.5594294770206022
+            },
+            "rightAnkle": {
+              "x": 0.5070383145334204,
+              "y": 0.8748019017432647
+            },
+            "leftAnkle": {
+              "x": 0.3207793418476741,
+              "y": 0.6751188589540412
+            }
+          }
+        }
+      ],
+      "brush": "complete"
     },
     {
       "_id": "s58v2ue9h",
-      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_784_img_000000227_c0.png"
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_784_img_000000227_c0.png",
+      "annotation": [
+        {
+          "id": "35050939720324936",
+          "keypointsDefinitionId": "human",
+          "regionType": "keypoints",
+          "points": {
+            "nose": {
+              "x": 0.41081744287101885,
+              "y": 0.179080824088748
+            },
+            "rightEye": {
+              "x": 0.4007975052400184,
+              "y": 0.1473851030110935
+            },
+            "leftEye": {
+              "x": 0.4909769439190225,
+              "y": 0.15213946117274169
+            },
+            "rightEar": {
+              "x": 0.4959869127345228,
+              "y": 0.1664025356576862
+            },
+            "leftEar": {
+              "x": 0.6011962578600276,
+              "y": 0.1664025356576862
+            },
+            "rightShoulder": {
+              "x": 0.3005981289300138,
+              "y": 0.2662440570522979
+            },
+            "leftShoulder": {
+              "x": 0.7464853535095343,
+              "y": 0.2630744849445325
+            },
+            "rightElbow": {
+              "x": 0.16532897091150758,
+              "y": 0.40729001584786056
+            },
+            "leftElbow": {
+              "x": 0.7514953223250345,
+              "y": 0.41679873217115687
+            },
+            "rightWrist": {
+              "x": 0.2705383160370124,
+              "y": 0.4231378763866878
+            },
+            "leftWrist": {
+              "x": 0.4959869127345228,
+              "y": 0.4421553090332805
+            },
+            "rightHip": {
+              "x": 0.4060068503655232,
+              "y": 0.5227416798732171
+            },
+            "leftHip": {
+              "x": 0.6060068503655232,
+              "y": 0.5227416798732171
+            },
+            "rightKnee": {
+              "x": 0.41081744287101885,
+              "y": 0.6545166402535658
+            },
+            "leftKnee": {
+              "x": 0.6312560707530289,
+              "y": 0.652931854199683
+            },
+            "rightAnkle": {
+              "x": 0.5110168191810235,
+              "y": 0.8367670364500792
+            },
+            "leftAnkle": {
+              "x": 0.6312560707530289,
+              "y": 0.8462757527733756
+            }
+          }
+        }
+      ],
+      "brush": "complete"
     },
     {
       "_id": "s3v005x78",
-      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_785_img_000000114_c0.png"
+      "imageUrl": "file:///Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/data/completeData/left_images/nr_785_img_000000114_c0.png",
+      "annotation": [
+        {
+          "id": "6021801614501485",
+          "keypointsDefinitionId": "human",
+          "regionType": "keypoints",
+          "points": {
+            "nose": {
+              "x": 0.3806553857164767,
+              "y": 0.1838351822503962
+            },
+            "rightEye": {
+              "x": 0.33214048361535714,
+              "y": 0.1473851030110935
+            },
+            "leftEye": {
+              "x": 0.42543837227135634,
+              "y": 0.14421553090332806
+            },
+            "rightEar": {
+              "x": 0.26869791932927767,
+              "y": 0.15689381933438987
+            },
+            "leftEar": {
+              "x": 0.5038085987423956,
+              "y": 0.15689381933438987
+            },
+            "rightShoulder": {
+              "x": 0.31721282143039725,
+              "y": 0.26782884310618066
+            },
+            "leftShoulder": {
+              "x": 0.6456213894995144,
+              "y": 0.27258320126782887
+            },
+            "rightElbow": {
+              "x": 0.39931496344767653,
+              "y": 0.37400950871632327
+            },
+            "leftElbow": {
+              "x": 0.7277235315167937,
+              "y": 0.3977812995245642
+            },
+            "rightWrist": {
+              "x": 0.2537702571443178,
+              "y": 0.49445324881141045
+            },
+            "leftWrist": {
+              "x": 0.4142426256326364,
+              "y": 0.4595879556259905
+            },
+            "rightHip": {
+              "x": 0.42543837227135634,
+              "y": 0.5356576862123613
+            },
+            "leftHip": {
+              "x": 0.6344256428607945,
+              "y": 0.526148969889065
+            },
+            "rightKnee": {
+              "x": 0.3097489903379173,
+              "y": 0.6339144215530903
+            },
+            "leftKnee": {
+              "x": 0.6344256428607945,
+              "y": 0.652931854199683
+            },
+            "rightAnkle": {
+              "x": 0.23884259495935792,
+              "y": 0.8399366085578447
+            },
+            "leftAnkle": {
+              "x": 0.7277235315167937,
+              "y": 0.8193343898573693
+            }
+          }
+        }
+      ],
+      "brush": "complete"
     }
   ],
   "filePath": "/Users/michal/Documents/Study/MSc/Diploma project/Codes/my_model/datasets/PedCut2013_SegmentationDataset/keypoints.json"
