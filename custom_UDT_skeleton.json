@@ -1,0 +1,221 @@
+{
+  "name": "New image_landmark_annotation Dataset",
+  "interface": {
+    "type": "image_landmark_annotation",
+    "keypointDefinitions": {
+      "human": {
+        "landmarks": {
+
+          "nose": {
+            "label": "Nose",
+            "color": "#f00",
+            "defaultPosition": [
+              0,
+              0
+            ]
+          },
+          "rightEye": {
+            "label": "right eye",
+            "color": "#00f",
+            "defaultPosition": [
+              -0.05,
+              -0.05
+            ]
+          },
+          "leftEye": {
+            "label": "left eye",
+            "color": "#f0f",
+            "defaultPosition": [
+              0.05,
+              -0.05
+            ]
+          },
+          "rightEar": {
+            "label": "right ear",
+            "color": "#0ff",
+            "defaultPosition": [
+              -0.1,
+              -0.05
+            ]
+          },
+          "leftEar": {
+            "label": "left ear",
+            "color": "#00f",
+            "defaultPosition": [
+              0.1,
+              -0.05
+            ]
+          },
+          "rightShoulder": {
+            "label": "right shoulder",
+            "color": "#0ff",
+            "defaultPosition": [
+              -0.2,
+              0.1
+            ]
+          },
+          "leftShoulder": {
+            "label": "left shoulder",
+            "color": "#00f",
+            "defaultPosition": [
+              0.2,
+              0.1
+            ]
+          },
+          "rightElbow": {
+            "label": "right elbow",
+            "color": "#0f0",
+            "defaultPosition": [
+              -0.2,
+              0.2
+            ]
+          },
+          "leftElbow": {
+            "label": "left elbow",
+            "color": "#f00",
+            "defaultPosition": [
+              0.2,
+              0.2
+            ]
+          },
+          "rightWrist": {
+            "label": "right wrist",
+            "color": "#00f",
+            "defaultPosition": [
+              -0.2,
+              0.3
+            ]
+          },
+          "leftWrist": {
+            "label": "left wrist",
+            "color": "#f0f",
+            "defaultPosition": [
+              0.2,
+              0.3
+            ]
+          },
+          "rightHip": {
+            "label": "right hip",
+            "color": "#f00",
+            "defaultPosition": [
+              -0.1,
+              0.35
+            ]
+          },
+          "leftHip": {
+            "label": "left hip",
+            "color": "#0ff",
+            "defaultPosition": [
+              0.1,
+              0.35
+            ]
+          },
+          "rightKnee": {
+            "label": "right knee",
+            "color": "#ff0",
+            "defaultPosition": [
+              -0.15,
+              0.45
+            ]
+          },
+          "leftKnee": {
+            "label": "left knee",
+            "color": "#0f0",
+            "defaultPosition": [
+              0.15,
+              0.45
+            ]
+          },
+          "rightAnkle": {
+            "label": "right ankle",
+            "color": "#00f",
+            "defaultPosition": [
+              -0.15,
+              0.55
+            ]
+          },
+          "leftAnkle": {
+            "label": "left ankle",
+            "color": "#f00",
+            "defaultPosition": [
+              0.15,
+              0.55
+            ]
+          }
+        },
+        "connections": [
+          [
+            "nose",
+            "rightEye"
+          ],
+          [
+            "rightEye",
+            "rightEar"
+          ],
+          [
+            "nose",
+            "leftEye"
+          ],
+          [
+            "leftEye",
+            "leftEar"
+          ],
+          [
+            "rightWrist",
+            "rightElbow"
+          ],
+          [
+            "rightElbow",
+            "rightShoulder"
+          ],
+          [
+            "rightShoulder",
+            "leftShoulder"
+          ],
+          [
+            "leftShoulder",
+            "leftElbow"
+          ],
+          [
+            "leftElbow",
+            "leftWrist"
+          ],
+          [
+            "rightHip",
+            "leftHip"
+          ],
+          [
+            "rightAnkle",
+            "rightKnee"
+          ],
+          [
+            "rightKnee",
+            "rightHip"
+          ],
+          [
+            "rightHip",
+            "rightShoulder"
+          ],
+          [
+            "leftAnkle",
+            "leftKnee"
+          ],
+          [
+            "leftKnee",
+            "leftHip"
+          ],
+          [
+            "leftHip",
+            "leftShoulder"
+          ]
+        ]
+      }
+    }
+  },
+  "samples": [
+    {
+      "_id": "syfhevf8e",
+      "imageUrl": "https://media.istockphoto.com/photos/businesswoman-picture-id918002786"
+    }
+  ]
+}
