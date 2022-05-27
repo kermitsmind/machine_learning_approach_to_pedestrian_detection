@@ -14,7 +14,7 @@ class SVM:
 
         :param: max_iter: maximal number of the algorithm iterations
         :param: kernel_type: type of a kernel
-        :param: C:
+        :param: C: regularization parameter
         :param: epsilon: convergence criterion
         """
 
